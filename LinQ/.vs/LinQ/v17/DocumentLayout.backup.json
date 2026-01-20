@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SHREE\\source\\repos\\LinQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5248A7A5-3E09-4200-B557-25055EEEBB11}|LinQ\\LINQ.csproj|c:\\users\\shree\\source\\repos\\linq\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5248A7A5-3E09-4200-B557-25055EEEBB11}|LinQ\\LINQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\LinQ\\LinQ\\Program.cs",
+              "RelativeDocumentMoniker": "LinQ\\Program.cs",
+              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\LinQ\\LinQ\\Program.cs",
+              "RelativeToolTip": "LinQ\\Program.cs",
+              "ViewState": "AgIAAMgBAAAAAAAAAAAAANMBAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:32:21.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

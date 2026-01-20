@@ -1,0 +1,14 @@
+C:\Users\SHREE\source\repos\techrel\techrel\bin\Debug\net8.0\techrel.exe
+C:\Users\SHREE\source\repos\techrel\techrel\bin\Debug\net8.0\techrel.deps.json
+C:\Users\SHREE\source\repos\techrel\techrel\bin\Debug\net8.0\techrel.runtimeconfig.json
+C:\Users\SHREE\source\repos\techrel\techrel\bin\Debug\net8.0\techrel.dll
+C:\Users\SHREE\source\repos\techrel\techrel\bin\Debug\net8.0\techrel.pdb
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.AssemblyInfoInputs.cache
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.AssemblyInfo.cs
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.csproj.CoreCompileInputs.cache
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.dll
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\refint\techrel.dll
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.pdb
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\techrel.genruntimeconfig.cache
+C:\Users\SHREE\source\repos\techrel\techrel\obj\Debug\net8.0\ref\techrel.dll
