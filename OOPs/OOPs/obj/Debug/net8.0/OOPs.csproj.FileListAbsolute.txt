@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.exe
+C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.deps.json
+C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.runtimeconfig.json
+C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.dll
+C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.pdb
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.AssemblyInfo.cs
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.sourcelink.json
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.dll
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\refint\OOPs.dll
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.pdb
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\OOPs.genruntimeconfig.cache
+C:\2025\CSharp-Programming\OOPs\OOPs\obj\Debug\net8.0\ref\OOPs.dll

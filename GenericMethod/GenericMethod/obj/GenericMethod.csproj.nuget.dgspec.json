@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SHREE\\source\\repos\\GenericMethod\\GenericMethod\\GenericMethod.csproj": {}
+    "C:\\2025\\CSharp-Programming\\GenericMethod\\GenericMethod\\GenericMethod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SHREE\\source\\repos\\GenericMethod\\GenericMethod\\GenericMethod.csproj": {
+    "C:\\2025\\CSharp-Programming\\GenericMethod\\GenericMethod\\GenericMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SHREE\\source\\repos\\GenericMethod\\GenericMethod\\GenericMethod.csproj",
+        "projectUniqueName": "C:\\2025\\CSharp-Programming\\GenericMethod\\GenericMethod\\GenericMethod.csproj",
         "projectName": "GenericMethod",
-        "projectPath": "C:\\Users\\SHREE\\source\\repos\\GenericMethod\\GenericMethod\\GenericMethod.csproj",
+        "projectPath": "C:\\2025\\CSharp-Programming\\GenericMethod\\GenericMethod\\GenericMethod.csproj",
         "packagesPath": "C:\\Users\\SHREE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SHREE\\source\\repos\\GenericMethod\\GenericMethod\\obj\\",
+        "outputPath": "C:\\2025\\CSharp-Programming\\GenericMethod\\GenericMethod\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

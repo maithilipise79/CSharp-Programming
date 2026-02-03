@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SHREE\\source\\repos\\Delegate\\Delegate\\Delegate.csproj": {}
+    "C:\\2025\\CSharp-Programming\\Delegate\\Delegate\\Delegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SHREE\\source\\repos\\Delegate\\Delegate\\Delegate.csproj": {
+    "C:\\2025\\CSharp-Programming\\Delegate\\Delegate\\Delegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SHREE\\source\\repos\\Delegate\\Delegate\\Delegate.csproj",
+        "projectUniqueName": "C:\\2025\\CSharp-Programming\\Delegate\\Delegate\\Delegate.csproj",
         "projectName": "Delegate",
-        "projectPath": "C:\\Users\\SHREE\\source\\repos\\Delegate\\Delegate\\Delegate.csproj",
+        "projectPath": "C:\\2025\\CSharp-Programming\\Delegate\\Delegate\\Delegate.csproj",
         "packagesPath": "C:\\Users\\SHREE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SHREE\\source\\repos\\Delegate\\Delegate\\obj\\",
+        "outputPath": "C:\\2025\\CSharp-Programming\\Delegate\\Delegate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
