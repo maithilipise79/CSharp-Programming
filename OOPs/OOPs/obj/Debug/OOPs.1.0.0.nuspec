@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OOPs</id>
+    <version>1.0.0</version>
+    <authors>OOPs</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="87eb3387f95077895d36cd11b9d73fdf1db371bd" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.runtimeconfig.json" target="lib\net8.0\OOPs.runtimeconfig.json" />
+    <file src="C:\2025\CSharp-Programming\OOPs\OOPs\bin\Debug\net8.0\OOPs.dll" target="lib\net8.0\OOPs.dll" />
+  </files>
+</package>

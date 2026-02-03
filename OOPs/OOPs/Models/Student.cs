@@ -4,8 +4,10 @@ using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Net;
 using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OOPs.Models
@@ -81,7 +83,7 @@ namespace OOPs.Models
 
     //Person---------------------------------------------------------------------------------
     public class Person
-    { 
+    {
         private string Name { get; set; }
         private string Address { get; set; }
         private long Phone { get; set; }
@@ -96,24 +98,24 @@ namespace OOPs.Models
             AadharNo = 866950026354;
         }
 
-        public Person(string name,string address)
+        public Person(string name, string address)
         {
             this.Name = name;
             this.Address = address;
         }
 
-        public override string  ToString()
+        public override string ToString()
         {
             return $"[Name: {Name} ,Address: {Address} ,Phone: {Phone} ,AdharNo:  {AadharNo} ]";
         }
-        
+
     }
 
 
 
 
-     //Room--------------------------------------------------------------------------------
-     public class Room
+    //Room--------------------------------------------------------------------------------
+    public class Room
     {
         private int RoomNo { get; set; }
         private double Rent { get; set; }
@@ -129,7 +131,7 @@ namespace OOPs.Models
         {
             this.RoomNo = roomNo;
         }
-        public Room(int roomNo,double rent,string address)
+        public Room(int roomNo, double rent, string address)
         {
             this.RoomNo = roomNo;
             this.Rent = rent;
@@ -186,7 +188,7 @@ namespace OOPs.Models
             Price = price;
         }
 
-        public Book(string name,double price)
+        public Book(string name, double price)
         {
             Name = name;
             Price = price;
@@ -196,7 +198,7 @@ namespace OOPs.Models
         {
             return $"Book [ Name :{Name} ,Author :{Author} ,Price :{Price} ]";
         }
-     }
+    }
 
 
     //Account-----------------------------------------------------------------------------
@@ -219,7 +221,7 @@ namespace OOPs.Models
             balance = 1000000;
             BankName = "SBI";
         }
-        public Account(string name,long accountNo,double balance,string bankName)
+        public Account(string name, long accountNo, double balance, string bankName)
         {
             Name = name;
             AccountNo = accountNo;
@@ -234,7 +236,7 @@ namespace OOPs.Models
             BankName = bankName;
 
         }
-        public Account(string bankName,string name, long accountNo, double balance)
+        public Account(string bankName, string name, long accountNo, double balance)
         {
             Name = name;
             AccountNo = accountNo;
@@ -282,7 +284,7 @@ namespace OOPs.Models
     //Laptop------------------------------------------------------------------------------
     public class Laptop
     {
-        public string Company{ get; set; }
+        public string Company { get; set; }
         public string Processor { get; set; }
         public int RAM { get; set; }
         public int Storage { get; set; }
@@ -308,7 +310,7 @@ namespace OOPs.Models
         public Circle(double redius)
         {
             Redius = redius;
-        } 
+        }
         public Circle()
         {
             Redius = 2;
@@ -344,7 +346,7 @@ namespace OOPs.Models
     public class Country
     {
         public string Name { get; set; }
-        public  int Population { get; set; }
+        public int Population { get; set; }
         public string Capital { get; set; }
 
         public Country()
@@ -361,9 +363,9 @@ namespace OOPs.Models
         }
         public override string ToString()
         {
-            return $"Country [Name :{Name} , Capital :{ Capital} , Population :{Population} ]";
+            return $"Country [Name :{Name} , Capital :{Capital} , Population :{Population} ]";
         }
-     }
+    }
 
     //Company------------------------------------------------------------------------------
     public class Company
@@ -389,7 +391,7 @@ namespace OOPs.Models
             EmployeeCount = employeeCount;
         }
 
-        public Company(string name,string location ,int employeeCount)
+        public Company(string name, string location, int employeeCount)
         {
             Id = 102;
             Name = name;
@@ -401,7 +403,7 @@ namespace OOPs.Models
         {
             return $"Company[ ID:{Id} ,Name :{Name} ,Location :{Location} ,EmployeeCount :{EmployeeCount} ]";
         }
-     }
+    }
 
     //Bike---------------------------------------------------------------------------------
     public class Bike
@@ -440,23 +442,23 @@ namespace OOPs.Models
     //what is Constructor Chaining in C#
     // Constructor chaining is a technique in C# where one constructor calls another constructor within the same class or a base class.
     //// This allows for code reuse and can help to avoid duplication of initialization logic.
-    
+
     public class Employee
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public double Salary { get; set; }
 
-        public Employee() :this(1,"Maithili",54000)
+        public Employee() : this(1, "Maithili", 54000)
         {
             Console.WriteLine("zero parameterized Constructor");
         }
-        public Employee(int id,string name,double salary):this(name,salary)
+        public Employee(int id, string name, double salary) : this(name, salary)
         {
             Id = id;
             Console.WriteLine("1st parametrized Constructor");
         }
-        public Employee(string name,double salary):this(salary)
+        public Employee(string name, double salary) : this(salary)
         {
             Name = name;
             Console.WriteLine("2nd parametrized Constructor");
@@ -475,7 +477,7 @@ namespace OOPs.Models
 
     //practice question 
     public class User
-    { 
+    {
         public int ID { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
@@ -483,18 +485,18 @@ namespace OOPs.Models
         {
             Console.WriteLine("Default Constructor");
         }
-        public User(int id):this()
+        public User(int id) : this()
         {
             ID = id;
-            Console.WriteLine($"Id :{ ID}");
+            Console.WriteLine($"Id :{ID}");
         }
-        public User(int id ,string name) : this(104)
+        public User(int id, string name) : this(104)
         {
             ID = id;
             Name = name;
             Console.WriteLine($"Id :{ID} ,name is {Name}");
         }
-        public User(int id, string name ,int age) : this(id,"gayatri")
+        public User(int id, string name, int age) : this(id, "gayatri")
         {
             ID = id;
             Name = name;
@@ -503,6 +505,185 @@ namespace OOPs.Models
         }
     }
 
+    //31/1/2026
+    //copy constructor
 
 
+
+    //==================================================================================================================
+
+    //01/02/2003
+    //static
+
+
+
+
+
+    //=========================================================================================================================
+    //01/02/2003
+    //Homework
+
+    //Q1.Default Constructor
+    //Create a class AdminUser with properties AdminId, Name, and IsActive.
+    //The default constructor should set IsActive = true.
+    //Create an object and print the IsActive value.
+
+
+    public class AdminUser
+    {
+        public int AdminId { get; set; }
+        public string Name { get; set; }
+        public bool IsActive { get; set; }
+
+        public AdminUser()
+        {
+            AdminId = 101;
+            Name = "Maithili";
+            IsActive = true;
+        }
+
+    }
+
+
+
+    //Q2. Parameterized Constructor
+    //Create a class LoginSession with AdminId and LoginTime.
+    //Initialize values using parameterized constructor and print login details
+
+
+    public class LoginSession
+    {
+        public int AdminId { get; set; }
+        public int Time { get; set; }
+
+        public LoginSession(int adminId, int time)
+        {
+            AdminId = adminId;
+            this.Time = time;
+        }
+
+        public override string ToString()
+        {
+            return $"AdminId :{AdminId}  Time :{Time}";
+        }
+    }
+
+
+    //PART 2: OVERLOADING & this KEYWORD
+
+
+    //Q3. Constructor Overloading
+    //Create a class UserProfile with Name, Age, and City.
+    //Create three constructors:
+    //1. Name only
+    //2. Name and Age
+    //3. Name, Age, and City
+    //Create objects using all constructors and print details
+
+    //public class UserProfile
+    //{
+    //    public string Name { get; set; } = "maithilii";
+    //    public int Age { get; set; }
+    //    public string City { get; set; } = "Akluj";
+
+
+    //    public UserProfile(string name)
+    //    {
+    //        this.Name = name;
+    //    }
+    //    public UserProfile(string name, int age ) 
+    //    {
+    //        this.Name= name;
+    //        this.Age = age;
+
+    //    }
+    //    public UserProfile(string name, int age, string city) 
+    //    {
+    //        Name = name;
+    //        Age = age;
+    //        City = city;
+    //    }
+
+    //    public override string ToString()
+    //    {
+    //        return $"Name :{Name}  , Age :{Age} , City :{City}";
+    //    }
+    //}
+
+
+    //Q4.Constructor Chaining using this
+    //Modify UserProfile constructors so that:- Second constructor calls first using this- Third constructor calls second using this
+    //Avoid duplicate code.
+
+    public class UserProfile
+    {
+        public string Name { get; set; } = "maithilii";
+        public int Age { get; set; }
+        public string City { get; set; } = "Akluj";
+
+
+        public UserProfile(string name)
+        {
+            this.Name = name;
+        }
+        public UserProfile(string name, int age) :this("gayatri")
+        {
+            
+            this.Age = age;
+
+        }
+        public UserProfile(string name, int age, string city) :this(name,age)
+        {
+          
+            City = city;
+        }
+
+        public override string ToString()
+        {
+            return $"Name :{Name}  , Age :{Age} , City :{City}";
+        }
+    }
+
+    //PART 3: INHERITANCE & base KEYWORD
+
+    //Q5.Constructor Chaining using base
+    //Create a base class Admin with constructor accepting Name.
+    //Create derived class SuperAdmin with constructor accepting Name and PermissionLevel.
+    //Use base keyword to call parent constructor and print details
+
+
+
+    //PART 4: ADVANCED CONSTRUCTORS
+    //Q6.Private Constructor
+    //Create a class AdminConfig with a private constructor and a static property AppName.
+    //Explain why private constructor is used and mention real-time use case.
+    public class AdminConfig
+    {
+        public static string AppName { get; set; }
+    }
+
+
+
+
+    //Q7.Constructor vs Static Constructor
+    //Create a class AppSettings with:- Static constructor initializing ApplicationName- Normal constructor initializing Environment
+    //Print both values and explain execution order.
+    public class AppSetting
+    {
+        public static string ApplicationName { get; set; }
+        public string Environment { get; set; }
+         static AppSetting()
+        {
+            ApplicationName = "Instagram";
+        }
+        public AppSetting()
+        {
+            Environment = " friendly ";
+        }
+
+        public override string ToString()
+        {
+            return $"application Name:{ApplicationName}  Environment :{Environment} ";
+        }
+    }
 }

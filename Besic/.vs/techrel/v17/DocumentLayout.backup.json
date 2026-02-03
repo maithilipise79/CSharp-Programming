@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SHREE\\source\\repos\\techrel\\",
+  "WorkspaceRootPath": "C:\\2025\\CSharp-Programming\\Besic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\users\\shree\\source\\repos\\techrel\\techrel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\2025\\csharp-programming\\besic\\techrel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|solutionrelative:techrel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\users\\shree\\source\\repos\\techrel\\techrel\\genericdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\2025\\csharp-programming\\besic\\techrel\\genericdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|solutionrelative:techrel\\genericdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\users\\shree\\source\\repos\\techrel\\techrel\\mathfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\2025\\csharp-programming\\besic\\techrel\\mathfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|solutionrelative:techrel\\mathfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\users\\shree\\source\\repos\\techrel\\techrel\\patterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|c:\\2025\\csharp-programming\\besic\\techrel\\patterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599D3296-831F-494F-8A1B-D3DC42B2762E}|techrel\\Besic.csproj|solutionrelative:techrel\\patterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GenericDemo.cs",
-              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\GenericDemo.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\GenericDemo.cs",
               "RelativeDocumentMoniker": "techrel\\GenericDemo.cs",
-              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\GenericDemo.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\GenericDemo.cs",
               "RelativeToolTip": "techrel\\GenericDemo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MathFunction.cs",
-              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\MathFunction.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\MathFunction.cs",
               "RelativeDocumentMoniker": "techrel\\MathFunction.cs",
-              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\MathFunction.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\MathFunction.cs",
               "RelativeToolTip": "techrel\\MathFunction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Patterns.cs",
-              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\Patterns.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\Patterns.cs",
               "RelativeDocumentMoniker": "techrel\\Patterns.cs",
-              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\Patterns.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\Patterns.cs",
               "RelativeToolTip": "techrel\\Patterns.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,13 +68,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\Program.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\Program.cs",
               "RelativeDocumentMoniker": "techrel\\Program.cs",
-              "ToolTip": "C:\\Users\\SHREE\\source\\repos\\techrel\\techrel\\Program.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Besic\\techrel\\Program.cs",
               "RelativeToolTip": "techrel\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgLAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T03:03:38.539Z"
+              "WhenOpened": "2026-01-12T03:03:38.539Z",
+              "EditorCaption": ""
             }
           ]
         }

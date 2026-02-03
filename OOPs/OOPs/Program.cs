@@ -1,7 +1,9 @@
-﻿using System;
+﻿using OOPs.Models;
+using System;
 using System.Buffers.Text;
 using System.Reflection;
-using OOPs.Models;
+using System.Runtime.Intrinsics.X86;
+using static System.Collections.Specialized.BitVector32;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OOPs
@@ -789,6 +791,71 @@ namespace OOPs
 
 
             //User n1 = new User(101, "Maithili", 23);
+
+
+
+            //31/1/2026
+            //copy constructor
+
+
+
+
+
+            //==================================================================================================================
+
+            //01/02/2003
+            //static
+
+
+
+
+
+            //=========================================================================================================================
+            //01/02/2003
+            //Homework
+
+            //Q1.Default Constructor
+
+            //AdminUser user1 = new AdminUser();
+            //Console.WriteLine("IsActive : " + user1.IsActive);
+
+
+
+            //Q2. Parameterized Constructor
+            //LoginSession user1 = new LoginSession(101, 4);
+            //Console.WriteLine(user1);
+
+
+            //Q3. Constructor Overloading
+            //UserProfile user1 = new UserProfile("Shivtej");
+            //Console.WriteLine(user1);
+            //UserProfile user2 = new UserProfile("Aryan", 22);
+            //Console.WriteLine(user2);
+            //UserProfile user3 = new UserProfile("Gaurang", 14, "Pune");
+            //Console.WriteLine(user3);
+
+
+            //Q4.Constructor Chaining using this
+            //UserProfile user3 = new UserProfile("Gaurang", 14, "Pune");
+            //Console.WriteLine(user3);
+
+
+            //PART 3: INHERITANCE & base KEYWORD
+
+            //Q5.Constructor Chaining using base
+
+
+            //PART 4: ADVANCED CONSTRUCTORS
+            //Q6.Private Constructor
+
+
+
+            //Q7.Constructor vs Static Constructor
+            //AppSetting app1 = new AppSetting();
+            //Console.WriteLine(app1);
+
+
+
 
         }
     }
