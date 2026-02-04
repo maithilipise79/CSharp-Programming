@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Security.Cryptography;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -508,19 +509,36 @@ namespace OOPs.Models
     //31/1/2026
     //copy constructor
 
+    public class Student1
+    { 
+        public int ID { get; set; }
+        public string Name {  get; set; }
+
+        public Student1(int id,string name)
+        {
+            ID = id;
+            Name = name;
+        }
+        public Student1(Student1 s)
+        {
+            ID = s.ID;
+            Name =s.Name;
+        }
+
+        public override string ToString()
+        {
+            return $"ID :{ID} Name:{Name}";
+        }
+    }
 
 
-    //==================================================================================================================
-
-    //01/02/2003
-    //static
 
 
 
 
 
-    //=========================================================================================================================
-    //01/02/2003
+    //=====================================================================================================================================================================
+    //02/02/2003
     //Homework
 
     //Q1.Default Constructor
@@ -611,6 +629,7 @@ namespace OOPs.Models
     //}
 
 
+
     //Q4.Constructor Chaining using this
     //Modify UserProfile constructors so that:- Second constructor calls first using this- Third constructor calls second using this
     //Avoid duplicate code.
@@ -653,14 +672,45 @@ namespace OOPs.Models
 
 
 
+
     //PART 4: ADVANCED CONSTRUCTORS
     //Q6.Private Constructor
     //Create a class AdminConfig with a private constructor and a static property AppName.
     //Explain why private constructor is used and mention real-time use case.
     public class AdminConfig
     {
-        public static string AppName { get; set; }
+        //public static string AppName { get; set; }
+        public  string AppName { get; set; }
+
+        private AdminConfig()
+        {
+            AppName = "Instagram";
+        }
+
+        public static AdminConfig CreateObject()
+        {
+            return new AdminConfig();
+        }
     }
+
+    public class Car
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+
+        private Car(string name,double price)
+        {
+            Name = name;
+            Price = price;
+        }
+
+        public static Car CreateObject( string name,double value)
+        {
+            return new Car( name,value);
+        }
+
+    }
+
 
 
 
@@ -675,10 +725,12 @@ namespace OOPs.Models
          static AppSetting()
         {
             ApplicationName = "Instagram";
+            Console.WriteLine("I am static constructor ");
         }
         public AppSetting()
         {
             Environment = " friendly ";
+            Console.WriteLine("I am Normal Constuctor");
         }
 
         public override string ToString()
@@ -686,4 +738,199 @@ namespace OOPs.Models
             return $"application Name:{ApplicationName}  Environment :{Environment} ";
         }
     }
+
+
+
+    //Q8.Singleton Pattern using Constructor
+    //Create a Singleton class using private constructor, static instance, and public static property.
+    //Mention real-time use case (cache, configuration, logger).
+
+
+
+
+    //========================================================================================================================================================================
+    //02/02/2003
+    //Class work 
+
+    //Static Purpose
+    //what is static 
+    //static keyword is used to declare static members
+    //static members belong to the class itself rather than to any specific instance
+    //static members are shared across all instances of the class
+    //purpose of static members is to provide functionality or data that is common to all instances of the class
+
+    //just chack if filed is static then how to work // and find out the how many times create the object for the class
+
+
+    public class Sparrow
+    {
+
+        public int count = 0;    // when we increment in constructor thats not affected here for each time count=0;x=0;
+        public int x = 0;       // its instance variable that why its take memory in obj and it is part of object
+
+        public Sparrow()
+        {
+            count++;
+            x++;
+        }
+
+        public override string ToString()
+        {
+            return $"Count :{count} , x :{x}";
+        }
+
+
+    }
+
+    public class Sparrow1
+    {
+        public static int count = 0; //change//it is static because of that its membar of class(take memory only once in stack)
+        public int x = 0;            //not changes
+
+        public Sparrow1()
+        {
+            count++;
+            x++;
+        }
+
+        public override string ToString()
+        {
+            return $"Count :{count} , x :{x}";
+        }
+
+    }
+    public class Sparrow2
+    {
+        public static int count = 0;  
+        public static int x = 0;           
+
+        public Sparrow2()
+        {
+            count++;
+            x++;
+        }
+
+        public override string ToString()
+        {
+            return $"Count :{count} , x :{x}";
+        }
+
+    }
+
+
+
+
+    //===========================================================================================================================================
+    //Static Method vs Instance Method 
+
+    //Exercise 1: Identify Static vs Instance
+    //Given a Calculator class with Add and Multiply methods.Decide whether these methods should be
+    //static or instance methods and explain why.
+    public class Calculator
+    { 
+        public static void Add(int a,int b)
+        {
+            Console.WriteLine($"{a} + {b} => {a + b}");
+        }
+        public static void Substract(int a,int b)
+        {
+            Console.WriteLine($"{a} - {b} => {a - b}");
+        }
+        public static void Mult(int a,int b)
+        {
+            Console.WriteLine($"{a} * {b} => {a * b}");
+        }
+    }
+
+
+
+
+    //Exercise 2: Convert Static to Instance
+    //A User class has a Name property.Modify a static greeting method so that it uses the user's name.
+    //Decide whether the method should be static or instance.
+
+    public class User1 { 
+        public static string Name { get; set; }
+
+        public static string Greeting()
+        {
+            return $"Good Morning {Name}";
+        }
+    }
+
+    //Exercise 3: Utility vs Behavior
+    //An EmailService class has methods for sending email and validating email format.Identify which
+    //method should be static and which should be instance, with reasoning.
+
+    public class EmailServices
+    { 
+        public static bool EmailValidation(string email)
+        {
+            bool isValid = email.Contains("@");
+            
+            return isValid;
+        }
+
+        public void SendEmail(string email,string subject,string body)
+        {
+            if (EmailValidation(email)==true)
+            {
+                Console.WriteLine($"To :{email}");
+                Console.WriteLine($"Subject :{subject}");
+                Console.WriteLine($"Body :{body}");
+            }
+            else
+            {
+                Console.WriteLine("Email is Invalid");
+            }
+        }
+    }
+
+
+    //Exercise 4: Static Variable Counter
+    //A class contains a static counter incremented in the constructor.Create multiple objects and predict
+    //the output
+
+    public class CountObj
+    {
+        public static int count = 0;
+
+        public CountObj()
+        {
+            count++;
+        }
+
+    }
+
+
+    //Exercise 5: Fix the Compilation Error
+    //A static method tries to access an instance variable.Identify the error and fix it using two different
+    //approaches
+
+    //ans => id method is static then its not able to access instance varible
+    //to solve this there are two approach
+    //1.make variable static 
+    //2.make method instance
+
+    public class Solution
+    {
+        public static string name="maithili";
+
+        static Solution()
+        {
+            Console.WriteLine("Hello " + name);
+        }
+    }
+    public class Solution1
+    {
+        public string name="maithili";
+
+        public Solution1()
+        {
+            Console.WriteLine("Hello " + name);
+        }
+    }
+
+
+
 }

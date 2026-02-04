@@ -682,7 +682,7 @@ namespace OOPs
 
 
 
-            //---------------------------------------------------------------------------------------------------------------
+            //====================================================================================================================================================================
 
             //27-01-2026
             //Homework
@@ -781,6 +781,8 @@ namespace OOPs
             //Console.WriteLine(b2);
 
 
+
+
             //==========================================================================================================================================
             ////28-01-2026
             //Class work
@@ -794,24 +796,24 @@ namespace OOPs
 
 
 
+
+
+
+            //=======================================================================================================================================
+
+
             //31/1/2026
             //copy constructor
+            //Student1 s1=new Student1(1,"maithili");
+            //Console.WriteLine(s1);
+            //Student1 s2=new Student1(s1);
+            //Console.WriteLine(s1);
 
 
-
-
-
-            //==================================================================================================================
-
-            //01/02/2003
-            //static
-
-
-
-
+           
 
             //=========================================================================================================================
-            //01/02/2003
+            //02/02/2003
             //Homework
 
             //Q1.Default Constructor
@@ -822,7 +824,7 @@ namespace OOPs
 
 
             //Q2. Parameterized Constructor
-            //LoginSession user1 = new LoginSession(101, 4);
+            //LoginSessiojn user1 = new LoginSession(101, 4);
             //Console.WriteLine(user1);
 
 
@@ -835,7 +837,7 @@ namespace OOPs
             //Console.WriteLine(user3);
 
 
-            //Q4.Constructor Chaining using this
+            ////Q4.Constructor Chaining using this
             //UserProfile user3 = new UserProfile("Gaurang", 14, "Pune");
             //Console.WriteLine(user3);
 
@@ -846,16 +848,104 @@ namespace OOPs
 
 
             //PART 4: ADVANCED CONSTRUCTORS
-            //Q6.Private Constructor
 
+
+            //Q6.Private Constructor
+            //AdminConfig obj = AdminConfig.CreateObject();
+            //Console.WriteLine(obj.AppName);
+
+            //Car c1 = Car.CreateObject("Aura", 1200000);
+            //Console.WriteLine("Car Name :" + c1.Name + "  car Price :" + c1.Price);
 
 
             //Q7.Constructor vs Static Constructor
             //AppSetting app1 = new AppSetting();
+            //app1.Environment = "dynamic";
+            //AppSetting.ApplicationName = "facebook";//static field cannot access by using onject it can be access by using class name
             //Console.WriteLine(app1);
 
 
+            //Q8.Singleton Pattern using Constructor
 
+
+
+
+            //=========================================================================================================================================================
+
+            //02/02/2003
+            //Class work 
+
+            //what is static 
+            //static keyword is used to declare static members
+            //static members belong to the class itself rather than to any specific instance
+            //static members are shared across all instances of the class
+            //purpose of static members is to provide functionality or data that is common to all instances of the class
+
+            //Sparrow s1 = new Sparrow();
+            //Console.WriteLine(s1);
+            //Sparrow s2 = new Sparrow();
+            //Console.WriteLine(s2);
+            //Sparrow s3 = new Sparrow();
+            //Console.WriteLine(s3);
+            //Console.WriteLine(s1);
+
+
+
+            //Sparrow1 s1 = new Sparrow1();
+            //Console.WriteLine(s1);
+            //Sparrow1 s2 = new Sparrow1();
+            //Console.WriteLine(s2);
+            //Sparrow1 s3 = new Sparrow1();
+            //Console.WriteLine(s3);
+            //Console.WriteLine(s1);
+            //Console.WriteLine(s1);
+
+
+            //Sparrow2 s1 = new Sparrow2();
+            //Console.WriteLine(s1);
+            //Sparrow2 s2 = new Sparrow2();
+            //Console.WriteLine(s2);
+            //Sparrow2 s3 = new Sparrow2();
+            //Console.WriteLine(s3);
+            //Console.WriteLine(s1);
+            //Console.WriteLine(s1);
+
+
+
+            //====================================================================================================================
+            //04/02/2026
+            //Static Method vs Instance Method 
+
+
+            //Exercise 1: Identify Static vs Instance
+            //Calculator.Add(12, 32);
+            //Calculator.Mult(30, 10);
+
+
+            ///Exercise 2: Convert Static to Instance
+            //User1.Name = "Maithili";
+            //Console.WriteLine(User1.Greeting());
+
+
+            //Exercise 3: Utility vs Behavior
+            //EmailServices email1 = new EmailServices();
+            //string email = "maithili.pise2003@gmail.com";
+            //string subject = "Meeting Confirmation";
+            //string body = "I hope this message finds you well. I am writing to confirm our meeting scheduled for tomorrow at 10:00 AM. Please let me know if the time still works for you.";
+            //email1.SendEmail(email, subject, body);
+
+
+            //Exercise 4: Static Variable Counter
+            //CountObj obj1 = new CountObj();
+            //CountObj obj2 = new CountObj();
+            //CountObj obj3 = new CountObj();
+            //Console.WriteLine("Count is :"+CountObj.count);
+
+
+
+            //Exercise 5: Fix the Compilation Error
+            //Solution s1 = new Solution();
+            //Solution1 s2 = new Solution1();
 
         }
     }
