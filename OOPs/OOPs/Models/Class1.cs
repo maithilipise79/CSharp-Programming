@@ -426,71 +426,7 @@ namespace OOPs.Models
 
     //3)--------------------------------------------------------------------------------
 
-    public class Point2D
-    {
-        public float X {  get; set; }
-        public float Y { get; set; }
-
-        public Point2D()
-        {
-            X = 2;
-            Y = 2;
-        }
-        public Point2D(float x,float y)
-        {
-            X = x;
-            Y = y;
-        }
-
-        public void XY(float x,float y)
-        {
-            X = x; Y = y;
-        }
-
-        
-        //public float[] GetXY()
-        //{
-        //    return new float[] {X,Y};
-        //}
-        
-
-        public override string ToString()
-        {
-            return $"X :{X} ,Y :{Y}";
-        }
-    }
-    public class Point3D :Point2D
-    {
-        public float Z { get; set; }
-
-        public Point3D()
-        {
-            Z = 5;
-
-        }
-        public Point3D(float x,float y,float z): base(x,y)
-        {
-            Z = z;
-        }
-
-        public void XYZ(float x,float y,float z)
-        {
-            base.X = x;
-            base.Y = y;
-            Z = z;
-        }
-
-        //public float[] getXYZ()
-        //{
-        //    return new float[] {X,Y,Z};
-        //}
-        public override string ToString()
-        {
-            return $" X:{base.X} ,Y :{base.Y} ,Z :{Z}";
-        }
-
-    }
-
+   
 
 
 

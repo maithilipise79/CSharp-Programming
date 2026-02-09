@@ -1151,13 +1151,7 @@ namespace OOPs
 
 
             //3)----------------------------------------------
-            Point3D obj = new Point3D();
-            Console.WriteLine(obj);
-            Point3D obj2= new Point3D( 4.1f,4,6);
-            Console.WriteLine(obj2);
             
-
-
 
 
         }
