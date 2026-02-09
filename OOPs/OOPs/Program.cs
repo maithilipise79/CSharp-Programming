@@ -810,7 +810,7 @@ namespace OOPs
             //Console.WriteLine(s1);
 
 
-           
+
 
             //=========================================================================================================================
             //02/02/2003
@@ -881,6 +881,9 @@ namespace OOPs
             //static members are shared across all instances of the class
             //purpose of static members is to provide functionality or data that is common to all instances of the class
 
+            //static variable 
+
+            //sparrow 
             //Sparrow s1 = new Sparrow();
             //Console.WriteLine(s1);
             //Sparrow s2 = new Sparrow();
@@ -890,7 +893,7 @@ namespace OOPs
             //Console.WriteLine(s1);
 
 
-
+            //sparrow1
             //Sparrow1 s1 = new Sparrow1();
             //Console.WriteLine(s1);
             //Sparrow1 s2 = new Sparrow1();
@@ -900,7 +903,7 @@ namespace OOPs
             //Console.WriteLine(s1);
             //Console.WriteLine(s1);
 
-
+            //sparrow2
             //Sparrow2 s1 = new Sparrow2();
             //Console.WriteLine(s1);
             //Sparrow2 s2 = new Sparrow2();
@@ -909,6 +912,36 @@ namespace OOPs
             //Console.WriteLine(s3);
             //Console.WriteLine(s1);
             //Console.WriteLine(s1);
+
+            //sparrow3
+            //static constructor
+            //Sparrow3 s1=new Sparrow3();
+            //Console.WriteLine(s1);
+            //Sparrow3 s2 = new Sparrow3();
+            //Console.WriteLine(s2);
+            //Sparrow3 sparrow3 = new Sparrow3();
+            //Console.WriteLine(sparrow3);
+
+
+            //sparrow3
+            //static constructor
+            //Sparrow4 s1=new Sparrow4();
+            //Console.WriteLine(s1);
+            //Sparrow4 s2 = new Sparrow4();
+            //Console.WriteLine(s2);
+            //Sparrow4 sparrow3 = new Sparrow4();
+            //Console.WriteLine(sparrow3);
+            //Console.WriteLine(s1);
+            //Console.WriteLine(s2);
+
+
+
+            //Example 
+            //Example e1 = new Example();
+            //Example e2 = new Example();
+            //Console.WriteLine(e1);
+            //Console.WriteLine(e2);
+
 
 
 
@@ -947,7 +980,191 @@ namespace OOPs
             //Solution s1 = new Solution();
             //Solution1 s2 = new Solution1();
 
+
+
+
+            //==============================================================================================================================================================================================
+            //05/02/2026
+            //Inheritance 
+            //practice  questions 
+
+
+            ////Question 1
+            //Student6 s1 = new Student6();
+            //Console.WriteLine($" Name :{s1.Name1} ,Age : {s1.Age1} ,RollNo :{s1.RollNo1}");
+
+
+            ////Question 2
+            //Car1 c1 = new Car1();
+            //c1.Horn();
+            //c1.Drive();
+
+
+            //Question 3
+            //Manager.ManageTeam();
+            //Manager.Work();
+
+
+
+            //Question 4
+            //Rectangle r1 = new Rectangle();
+            //Console.WriteLine(r1.Area(2, 3)); //rectangle method runs
+
+            //Shape r2 = new Rectangle();//upcasting 
+            //Console.WriteLine(r2.Area(2, 4));// shape class method run
+
+            //when method is override
+            //Rectangle r1 = new Rectangle();
+            //Console.WriteLine(r1.Area(2, 3)); //rectangle method runs
+
+            //Shape r2 = new Rectangle();//upcasting 
+            //Console.WriteLine(r2.Area(2, 4));// rectangle class method run
+
+
+
+            //Question 5 
+            //1)
+            //Cat c = new Cat();
+            //c.Sound();   //Cat class method run
+            //2)
+            //Dog d=new Dog();
+            //d.Sound();   //Dog class method run
+            //3)
+            //Animal a=new Animal();
+            //a.Sound();   //Animal class method run
+            //4)
+            //Animal a = new Cat();
+            //a.Sound();    //Cat class method because we use virtual for parent class method and override the method
+            //5)
+            //Animal a = new Dog();
+            //a.Sound();    //Dog class 
+
+
+            //==============================================================================================================================================================
+            //06/02/2026
+
+            //1)--------------
+            //C c=new C();
+            //c.M1();   //here C does't have any method but they inherit by the parent class
+
+
+            //2)----------------
+            //Reff Parent class object creation Child Class 
+            //its also known as Upcasting (Vasudev Krishna)
+            //P obj1 = new C();
+            //obj1.M1();   //parent class  method call here(even both class have same name method)
+
+
+
+            //3)---------------
+            //P obj = new C(); //upcast
+            //obj.M1();       //here call child class method because we use virtual and override the method
+
+
+            //4)----------------
+            //P obj = new C();
+            ////obj.M1(); here get compile time error because reff type is P and P does't have any method
+            //C obj = new C();
+
+
+            //5)-------------------
+
+            //P obj = new C();
+            // obj.M2();  //here get Compile Time Error because the 
+            //reference type is P and P does not have M2 method.
+
+            //obj.M1(); //it gives M1 method
+
+            //C c = new C();
+            //c.M1();
+            //c.M2();
+            //here we are able to call M1 method because
+            //the reference type is C and C has M1 method and M2 method
+
+
+
+            //==================================================================================================================
+            //Constructor Chaining in Inheritance
+
+
+            //1)
+            //Bird b = new Bird(); //by using this we only call Bird class method
+            //2)
+            //Bird sparrow = new Sparrow();
+            //here call constructor od Bird and then Sparrow
+            //3)
+            //Bird s = new SparrowChild();
+            //here first bird class constructor then Sparrow then SparrowChild Constructor
+            //here we are creating an object of SparrowChild class and assigning it to a variable of type Bird. This is called upcasting.
+            //The constructor of the SparrowChild class will be called, which will call the constructor of the Sparrow class, which will call the constructor of the Bird class. The output
+            //output will be: SparrowChild constructor called Sparrow constructor called Bird constructor called Object Constructor
+            //that means => bird ,sparrow,SparrowChild
+
+
+
+            //-----------------------------------------------------------------------------
+
+            //Bird b = new Bird();
+
+            //Bird b = new SparrowChild();
+            //Bird b2 = new Sparrow(); //here error is occur because Sparrow does not have default parameter
+            //Bird b1 = new Sparrow(5); 
+            //Bird b1 =new SparrowChild(6);//here get error because sparrowChild does not have parameterized constructor 
+
+
+
+            //===================================================================================================================================================================================================================================================
+            //07/02/2026
+            //Homework
+
+
+            //1)
+
+            //Cylinder c = new Cylinder();
+            //Console.WriteLine(c.ToString());
+            //Console.WriteLine(c.GetArea());
+            //Console.WriteLine(c.GetVolume());
+
+            //Cylinder c=new Cylinder(3,2,"White");
+            //Console.WriteLine(c);
+            //Console.WriteLine(c.GetArea());
+            //Console.WriteLine(c.GetVolume());
+
+            //Cylinder c = new Cylinder(3, 2);
+            //Console.WriteLine(c);
+            //Console.WriteLine(c.GetArea());
+            //Console.WriteLine(c.GetVolume());
+
+
+            //2)-----------------------------------------
+
+            ////Person p = new Person();//get error person does not have default constructor
+            //Person p = new Person("Maithili", "Pune");
+            //Console.WriteLine(p);
+            ////Student1 s = new Student1();//does not have defefault constructor
+            //Student1 s = new Student1("Maithili", "Pune", "BE", 2025, 78000);
+            //Console.WriteLine(s);
+
+            //Staff s1 = new Staff("Maithili", "Pune", "SMP", 50000);
+            //Console.WriteLine(s1);
+
+
+
+            //3)----------------------------------------------
+            Point3D obj = new Point3D();
+            Console.WriteLine(obj);
+            Point3D obj2= new Point3D( 4.1f,4,6);
+            Console.WriteLine(obj2);
+            
+
+
+
+
         }
+        
+
     }
+
 }
+
 
