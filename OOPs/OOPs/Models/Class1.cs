@@ -399,7 +399,8 @@ namespace OOPs.Models
         }
         public override string ToString()
         {
-            return $"Student [Person [Name :{base.Name} ,Address : {base.Address} ] Program :{Program} , Year :{Year} ,Fees :{Fee} ]";
+            return $"Student " +
+                $"{base.ToString()} Program :{Program} , Year :{Year} ,Fees :{Fee} ]";
         }
         
     }
@@ -416,7 +417,7 @@ namespace OOPs.Models
 
         public override string ToString()
         {
-            return $"Staff [Person [name :{Name} ,Address :{Address} ] School :{School} , Pay :{Pay}";
+            return $"Staff  {base.ToString()} School :{School} , Pay :{Pay}";
         }
 
 
@@ -426,7 +427,631 @@ namespace OOPs.Models
 
     //3)--------------------------------------------------------------------------------
 
+    public class Point2D
+    {
+        public float X { get; set; } 
+        public float Y { get; set; }
+
+        public Point2D()
+        {
+            X = 2;
+            Y = 2;
+        }
+        public Point2D(float x, float y)
+        {
+            X = x;
+            Y = y;
+        }
+        public void XY(float x, float y)
+        {
+            X = x; Y = y;
+        }
+        public float[] GetXY()
+        {
+            return new float[] { X, Y };
+        }
+
+        public override string ToString()
+        {
+            return $"X :{X} ,Y :{Y}";
+        }
+    }
+
+
+    public class Point3D : Point2D
+    {
+        public float Z { get; set; }
+
+        public Point3D()
+        {
+            Z = 2;
+
+        }
+        public Point3D(float x, float y, float z) : base(x, y)
+        {
+            Z = z;
+        }
+
+        //public void XYZ(float x, float y, float z)
+        //{
+        //    base.X = x;
+        //    base.Y = y;
+        //    Z = z;
+        //}
+
+        //public float[] getXYZ()
+        //{
+        //    return new float[] { X, Y, Z };
+        //}
+
+        private float[] xyz=new float[3];
+        public float[] XYZ 
+        { 
+            get{ return xyz; }
+            set{ xyz = value; }
+        }
+         
+        public override string ToString()
+        {
+            return $" X:{base.X} ,Y :{base.Y} ,Z :{Z}";
+        }
+
+    }
+
+
+
+
+    //=====================================================================================================================================================
+    //09/02/2026
+    //Classwork
+
+
+
+
+
+
+
+    //=====================================================================================================================================================
+    //09/02/2026
+    //Homework
+
+    //1)
+    public class Author
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+
+        public char Gender { get; set; }
+
+        public Author(string name,string email,char gender)
+        {
+            Name = name;
+            Email = email;
+            Gender = gender;
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} ({Gender}) at {Email}";
+        }
+
+    }
+
+    public class Book
+    {
+        public string Name { get; set; }
+        public Author Author1 { get; set; }
+        public double Price{ get; set; }
+        public int Quantity {  get; set; }
+
+        public Book(string name,Author author, double price,int quantity)
+        {
+            Name = name;
+            Author1 = author;
+            Price = price;
+            Quantity = quantity;
+        }
+
+        public override string ToString()
+        {
+            return $" '{Name}' by {Author1}";
+        }
+    }
+
+
+
+    //2)------------------------------------------------------------------------
+
+    public class Customer
+    {
+        public int ID {  get; set; }
+        public string Name { get; set; }
+        public char Gender { get; set; }
+
+        public Customer(int iD, string name, char gender )
+        {
+            ID = iD;
+            Name = name;
+            Gender = gender;
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} ({ID})";
+        }
+    }
+
+    public class Account
+    {
+        public int ID { get; set; }
+        public Customer Customer1 { get; set; }
+        public double Balance {  get; set; }
+
+        public Account(int iD, Customer customer1, double balance )
+        {
+            ID = iD;
+            Customer1 = customer1;
+            Balance = balance;
+        }
+
+        public Account(int id,Customer customer1)
+        {
+            ID = id;
+            Customer1 = customer1;
+        }
+
+        public override string ToString()
+        {
+            return $"{Customer1.Name} ({ID})  balance = {Balance}";
+        }
+
+        public double Deposite(double amount)
+        {
+            Balance = amount + Balance;
+            return Balance;
+        }
+
+        public double Withdraw(double amount)
+        {
+            if(Balance >= amount)
+            {
+                Balance= Balance - amount;
+                return Balance;
+            }
+            else
+            {
+                Console.WriteLine("amount withdraw exceeds the current balance");
+                return Balance;
+            }
+        }
+    }
+
+
+
+    //3)--------------------------------------------------------------------------------
+
+    public class Customer1
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public int Discount { get; set; }   
+
+        public Customer1(int iD, string name, int discount )
+        {
+            ID = iD;
+            Name = name;
+            Discount = discount;
+        }
+
+        public override string ToString()
+        {
+            return $" {Name} ({ID}) with discount {Discount} %";
+        }
+
+    }
+
+    public class Invoice
+    { 
+        public int ID { get; set; }
+        public Customer1 Customer1 { get; set; }
+        public double Amount {  get; set; }
+
+        public Invoice(int iD, Customer1 customer1, double amount)
+        {
+            ID = iD;
+            Customer1 = customer1;
+            Amount = amount;
+        }
+
+        public double AmountAfterDiscount()
+        {
+            Amount = Amount - (Amount * (Customer1.Discount/100));
+            return Amount;
+        }
+    }
+
+    //=============================================================================================================
+    //HAS-A Relationship Layered Architecture Example
+
+    public class TransactionRepository
+    {
+        private int[] _tranjaction = { 500, 700, -400, 600, 1000, -400, 100, -300, 900 };
+        public int[] GetAllTransaction()
+        {
+            return _tranjaction;
+        }
+    }
+
+    public class TransactionService
+    {
+        private readonly TransactionRepository repository;
+
+        public TransactionService(TransactionRepository repository)
+        {
+            this.repository = repository;
+        }
+
+        public void AnalyzeTransactions()
+        {
+            var transaction= repository.GetAllTransaction();
+            int balance = 0;
+            foreach(var n in transaction)
+            {
+                balance += n;
+                Console.WriteLine("Balance : "+balance);
+            }
+        }
+    }
+
+    public class TransactionController
+    {
+        private readonly TransactionService service;
+
+        public TransactionController(TransactionService service)
+        {
+            this.service = service;
+        }
+
+        public void Run()
+        {
+            service.AnalyzeTransactions();
+        }
+    }
+
+
+    //--------------------------------------------------------------------------------
+    //Assignment 1: Library Book System
+
+    public class LibraryRepository
+    {
+        private int[] bookPages = { 120, 450, 300, 700, 150, 90, 500 };
+        public int[] GetBookPages()
+        {
+            return bookPages;
+        }
+    }
+
+    public class LibraryServices
+    {
+        //Di
+        private readonly LibraryRepository repository; 
+
+        public LibraryServices(LibraryRepository repository1)
+        {
+            this.repository = repository1;
+        }
+
+        public int TotalBooks()
+        {
+            var count = repository.GetBookPages().Count();
+            return count;
+        }
+        public double AveragePages()
+        {
+            return repository.GetBookPages().Average();
+           
+        }
+
+        public int BiggestBook()
+        {
+            return repository.GetBookPages().Max();
+        }
+
+        public int SmallestBook()
+        {
+            return repository.GetBookPages().Min();
+        }
+
+        public int[] BooksAbove300()
+        {
+            var result = repository.GetBookPages().Where( n=>n> 300).ToArray();
+            return result;
+        }
+    }
+
+    public class LibraryController
+    {
+        private readonly LibraryServices services;
+
+        public LibraryController(LibraryServices services)
+        {
+            this.services = services;
+        }
+
+        public void Run()
+        {
+            char ans;
+            do
+            {
+                Console.WriteLine("Enter the Choice : \n1. TotalBooks \n2. AveragePages \n3. BiggestBook \n4. SmallestBook \n5. BooksAbove300 )");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1: Console.WriteLine("Total Book : " + services.TotalBooks());
+                        break;
+                    case 2: Console.WriteLine("Average Book Pages : " + services.AveragePages());
+                        break;
+                    case 3: Console.WriteLine("Biggest Book : " + services.BiggestBook());
+                        break;
+                    case 4: Console.WriteLine("Smallest Book: " + services.SmallestBook());
+                        break;
+                    case 5: Console.Write("Books above 300 Pages : {");
+                        foreach (var n in services.BooksAbove300())
+                        {
+                            Console.Write(n + " , ");
+                        }
+                        Console.Write("}");
+                        break;
+                    default: Console.WriteLine("Invalid Choice");
+                        break;
+                }
+
+                Console.WriteLine("Do You want perform another operation Enter Yes or No");
+                ans = Console.ReadLine()[0];
+
+            } while (ans=='y'||ans=='Y');
+
+
+
+
+            //Console.WriteLine("Total Book : " + services.TotalBooks());
+            //Console.WriteLine("Average Book Pages : " + services.AveragePages());
+            //Console.WriteLine("Biggest Book : " + services.BiggestBook());
+            //Console.WriteLine("Smallest Book: " + services.SmallestBook());
+
+            //Console.WriteLine("Books above 300 Pages : {");
+            //foreach(var n in services.BooksAbove300())
+            //{
+            //    Console.Write(n + " , ");
+            //}
+
+
+        }
+    }
+
+
+
+    //3)------------------------------------------------------------------------------------
+    //Assignment 2: Employee Salary System
+
+    public class EmployeeRepository
+    {
+        public int[] salary = { 15000, 22000, 18000, 35000 };
+        public int[] GetSalary()
+        {
+            return salary;
+        }
+    }
+
+    public class EmployeeService
+    { 
+        private readonly EmployeeRepository repository;
+
+        public EmployeeService(EmployeeRepository repository)
+        {
+            this.repository=repository;
+        }
+
+        public int TotalPayout()
+        {
+            return repository.GetSalary().Sum();
+        }
+        public int HightSalary()
+        {
+            return repository.GetSalary().Max();
+        }
+
+        public int LowestSalary()
+        {
+            return repository.GetSalary().Min();
+        }
+
+        public int[] EmployeeEarning()
+        {
+            return repository.GetSalary().Where(n=>n>20000).ToArray();
+        }
+
+        public void SalaryRangeCategory()
+        {
+            var range = repository.GetSalary().GroupBy(n => n > 30000);
+            foreach(var n in range )
+            {
+                Console.WriteLine((n.Key) ? "Greater Than 30000" : "Less than equal to 30000");
+                foreach( var n2 in range )
+                {
+                    Console.Write(n2+" , ");
+                }
+            }
+        }
+
+
+    }
+
+    public class EmployeeController
+    { 
+        private readonly EmployeeService service;
+
+        public EmployeeController(EmployeeService service)
+        {
+            this.service = service;
+        }
+
+        public void Run()
+        {
+            char ans;
+            do
+            {
+                Console.WriteLine("Enter Your Choice :\n1. TotalPayout  \n2. HightSalary \n3. LowestSalary \n4. EmployeeEarning \n5. SalaryRangeCategory ");
+                int choice = Convert.ToInt32(Console.ReadLine());
+
+                switch (choice)
+                {
+                    case 1:
+                        Console.WriteLine("Total PayOut :" + service.TotalPayout());
+                        break;
+                    case 2:
+                        Console.WriteLine("Hight Salary :" + service.HightSalary());
+                        break;
+                    case 3:
+                        Console.WriteLine("Lowest Salary :" + service.LowestSalary());
+                        break;
+                    case 4:
+                        foreach (int n in service.EmployeeEarning())
+                        {
+                            Console.Write(n + " , ");
+                        }
+                        break;
+
+                    case 5:
+                        service.SalaryRangeCategory();
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Choice ");
+                        break;
+                }
+
+                Console.WriteLine("Do You want perform another operation Enetr Yes or No");
+                ans = Console.ReadLine()[0];
+
+            } while (ans == 'Y' || ans == 'y');
+
+
+        }
+    }
+
+
+
+
+    //==============================================================================================================================
+
+    //1)Exercise 1 — Person HAS-A Address
+
+    public class Address
+    { 
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string Pincode { get; set; }
+
+        public void GetFullAddress(string street,string city,string pincoad)
+        {
+            Street = street;
+            City = city;
+            Pincode = pincoad;
+        }
+        public override string ToString()
+        {
+            return $" Street :{Street} City :{City} Pincode :{Pincode}";
+        }
+    }
+
+    public class Persons
+    { 
+        public string Name {  get; set; }
+        public int Age {  get; set; }
+        public Address Address { get; set; }
+
+        public void DisplayProfile( string name,int age,Address address)
+        {
+            Name = name;
+            Age = age;
+            Address = address;
+        }
+        public override string ToString()
+        {
+            return $" Name: {Name} , Age :{Age} ,Address:{Address}";
+        }
+    }
+
+
+
+    //----------------------------------------------------------------------
+
+    //2)Exercise 2 — Car HAS-A Engine
+
+    public class Engine
+    { 
+        public int CC { get; set; }
+        public string FuelType {  get; set; }
+
+        public Engine( int cc, string fuel)
+        {
+            CC=cc;
+            FuelType = fuel;
+        }
+
+        public void Start()
+        {
+            Console.WriteLine("The Engine is starting ");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("The Engine is Stopping");
+        }
+
+        public override string ToString()
+        {
+            return $"CC : {CC} , Fuel Type :{FuelType}";
+        }
+    }
+
+    public class Car2
+    { 
+        public string Brand { get; set; }
+        public string Model {  get; set; }
+        public Engine Engine { get; set; }
+
+        public Car2(string brand, string model, Engine engine)
+        {
+            Brand = brand;
+            Model = model;
+            Engine = engine;
+        }
+
+        public void Drive()
+        {
+            Engine.Start();
+            Console.WriteLine("The Car is Starting");
+        }
+
+        public void StopCar()
+        {
+            Engine.Stop();
+            Console.WriteLine("The car is stop");
+        }
+
+        public override string ToString()
+        {
+            return $" Brand : {Brand} , Model :{Model} ,Engine : {Engine}  ";
+        }
+
+
+    }
+
+    //---------------------------------------------------------------------------------
    
+
 
 
 

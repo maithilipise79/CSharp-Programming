@@ -1151,11 +1151,179 @@ namespace OOPs
 
 
             //3)----------------------------------------------
-            
+            //--when we call default constructor-------
+
+            //Point3D obj = new Point3D();
+            //Console.WriteLine(obj);
+            //float[] XYZ=obj.getXYZ();
+            //foreach (var n in XYZ)
+            //{
+            //    Console.WriteLine(n);
+            //}
+
+
+            //-- When we update value by using method -----
+            //Console.WriteLine(obj);
+            //obj.XYZ(3, 3, 3);
+            //Console.WriteLine(obj);
+            //float[] XYZ = obj.getXYZ();
+            //foreach (var n in XYZ)
+            //{
+            //    Console.WriteLine(n);
+            //}
+
+
+            //Point3D obj = new Point3D(6,6,6);
+            //Console.WriteLine(obj);
+            //float[] XYZ = obj.getXYZ();
+            //foreach (var n in XYZ)
+            //{
+            //    Console.WriteLine(n);
+            //}
+
+
+            //Console.WriteLine(obj);
+            //obj.XYZ(3, 3, 3);
+            //Console.WriteLine(obj);
+            //float[] XYZ = obj.getXYZ();
+            //foreach (var n in XYZ)
+            //{
+            //    Console.WriteLine(n);
+            //}
+
+
+
+            ///* //use property for set and get array 
+            ///
+            // Point3D obj = new Point3D(0, 0, 0);
+            // Console.WriteLine(obj);
+            // //Set values for array 
+            // obj.XYZ = new float[] { 2, 3, 5 };
+            // //get array
+            // float[] XYZ = obj.XYZ;
+            // //print array
+            // foreach (var n in XYZ)
+            // {
+            //     Console.WriteLine(n);
+            // }*/
+
+
+
+
+
+            //=====================================================================================================================================================
+            //09/02/2026
+            //Classwork
+
+
+
+
+
+
+
+            //=====================================================================================================================================================
+            //09/02/2026
+            //Homework
+
+
+            //1)--------------------------
+            //Author author1 = new Author("Gaur Gopal Das", "gaurgopal@gmail.com", 'M');
+            //Console.WriteLine(author1);
+            //Book book1 = new Book("Life Amezing Secrets", author1, 250, 5);
+            //Console.WriteLine(book1);
+
+
+
+            //2)------------------------------------
+
+
+            //Customer customer1 = new Customer(1, "Pooja", 'F');
+            //Console.WriteLine(customer1);
+            //Account acc1 = new Account(1, customer1, 250000);
+            //Console.WriteLine(acc1);
+            //Console.WriteLine("Balance After Withdraw : " + acc1.Withdraw(20000));
+            //Console.WriteLine("Balance After Deposite : " + acc1.Deposite(50000));
+            //Console.WriteLine(acc1);
+
+
+            //Customer customer2 = new Customer(2, "Gayatri", 'F');
+            //Console.WriteLine(customer2);
+            //Account acc2 = new Account(1, customer2);
+            //Console.WriteLine(acc2);
+            //Console.WriteLine("Balance After Deposite : " + acc2.Deposite(20000));
+            //Console.WriteLine("Balance After Withdraw : " + acc2.Withdraw(10000));
+
+
+
+            //3)---------------------------------------
+
+
+            //Customer1 n1 = new Customer1(1, "Shivtej", 20);
+            //Console.WriteLine(n1);
+            //Invoice invoice1 = new Invoice(1, n1, 10000);
+            //Console.WriteLine("Amount After Discount = "+invoice1.AmountAfterDiscount());
+
+
+
+
+            //==========================================================================================================================================================
+
+            //HAS-A Relationship Layered Architecture Example
+
+            //TransactionRepository repo=new TransactionRepository();
+            //TransactionService services =new TransactionService(repo);
+            //TransactionController controller = new TransactionController(services);
+            //controller.Run();
+
+
+            //-----------------------------------------
+            //2)Assignment 1: Library Book System
+
+            //LibraryRepository repository = new LibraryRepository();
+            //LibraryServices services = new LibraryServices(repository);
+            //LibraryController libraryController = new LibraryController(services);
+            //libraryController.Run();
+
+
+
+            //-----------------------------------------
+            //3)Assignment 2: Employee Salary System
+
+            //EmployeeRepository repository = new EmployeeRepository();
+            //EmployeeService service = new EmployeeService( repository);
+            //EmployeeController employeeController = new EmployeeController( service);
+            //employeeController.Run();
+
+
+            //=============================================================================================================================================================
+
+
+            //1)Exercise 1 — Person HAS-A Address--------------------
+
+            //Address address = new Address();
+            //address.GetFullAddress("FC Road", "Pune", "413118");
+            //Console.WriteLine(address);
+            //Persons p = new Persons();
+            //p.DisplayProfile("Maithili", 23, address);
+            //Console.WriteLine(p);
+
+
+
+            //2))Exercise 2 — Car HAS-A Engine------------------------
+            //Engine engine = new Engine(2500, "Hybrid (petrol and electric) ");
+            //Console.WriteLine(engine);
+
+            //Car2 car = new Car2("Toyota", "RAV4", engine);
+            //Console.WriteLine(car);
+            //car.Drive();
+            //car.StopCar();
+
+
+            //==============================================================================================================================================================
 
 
         }
-        
+
 
     }
 
