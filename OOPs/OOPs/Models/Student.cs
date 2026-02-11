@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Net;
@@ -83,358 +84,358 @@ namespace OOPs.Models
 
 
     //Person---------------------------------------------------------------------------------
-    public class Person
-    {
-        private string Name { get; set; }
-        private string Address { get; set; }
-        private long Phone { get; set; }
-        private long AadharNo { get; set; }
+    //public class Person
+    //{
+    //    private string Name { get; set; }
+    //    private string Address { get; set; }
+    //    private long Phone { get; set; }
+    //    private long AadharNo { get; set; }
 
-        //overloading 
-        public Person()
-        {
-            Name = "Maithili";
-            Address = "Akluj";
-            Phone = 7840932333;
-            AadharNo = 866950026354;
-        }
+    //    //overloading 
+    //    public Person()
+    //    {
+    //        Name = "Maithili";
+    //        Address = "Akluj";
+    //        Phone = 7840932333;
+    //        AadharNo = 86695050054;
+    //    }
 
-        public Person(string name, string address)
-        {
-            this.Name = name;
-            this.Address = address;
-        }
+    //    public Person(string name, string address)
+    //    {
+    //        this.Name = name;
+    //        this.Address = address;
+    //    }
 
-        public override string ToString()
-        {
-            return $"[Name: {Name} ,Address: {Address} ,Phone: {Phone} ,AdharNo:  {AadharNo} ]";
-        }
+    //    public override string ToString()
+    //    {
+    //        return $"[Name: {Name} ,Address: {Address} ,Phone: {Phone} ,AdharNo:  {AadharNo} ]";
+    //    }
 
-    }
-
-
-
-
-    //Room--------------------------------------------------------------------------------
-    public class Room
-    {
-        private int RoomNo { get; set; }
-        private double Rent { get; set; }
-        private string Address { get; set; }
-
-        public Room()
-        {
-            RoomNo = 1;
-            Rent = 15000;
-            Address = "Narayan Peth";
-        }
-        public Room(int roomNo)
-        {
-            this.RoomNo = roomNo;
-        }
-        public Room(int roomNo, double rent, string address)
-        {
-            this.RoomNo = roomNo;
-            this.Rent = rent;
-            this.Address = address;
-        }
-        public override string ToString()
-        {
-            return $"Person :[RoomNo:{RoomNo} ,Rent: {Rent}, Address: {Address}]";
-        }
-
-    }
-
-    //Watch-------------------------------------------------------------------------------
-    public class Watch
-    {
-        public string Company { get; set; }
-        public string Type { get; set; }
-        public double Price { get; set; }
-
-        public Watch()
-        {
-            Company = "Apple";
-            Type = "Smart";
-            Price = 34500;
-
-        }
-
-        public override string ToString()
-        {
-            return $"Watch :[Company:{Company} ,Type : {Type}, Price: {Price}]";
-        }
-
-
-    }
-
-    //Book--------------------------------------------------------------------------------
-    public class Book
-    {
-        public string Name { get; set; }
-        public string Author { get; set; }
-        public double Price { get; set; }
-
-        public Book()
-        {
-            Name = "Can we be strengers again?";
-            Author = "Shrijeet Shandilya";
-            Price = 250;
-        }
-
-        public Book(string name, string author, double price)
-        {
-            Name = name;
-            Author = author;
-            Price = price;
-        }
-
-        public Book(string name, double price)
-        {
-            Name = name;
-            Price = price;
-        }
-
-        public override string ToString()
-        {
-            return $"Book [ Name :{Name} ,Author :{Author} ,Price :{Price} ]";
-        }
-    }
-
-
-    //Account-----------------------------------------------------------------------------
-    public class Account
-    {
-        public string Name { get; set; }
-        public long AccountNo { get; set; }
-        private double balance;
-        public double Balance
-        {
-            get { return balance; }
-            set { balance = value; }
-        }
-        public string BankName { get; set; }
-
-        public Account()
-        {
-            Name = "Tanaji Pise";
-            AccountNo = 4235879090005;
-            balance = 1000000;
-            BankName = "SBI";
-        }
-        public Account(string name, long accountNo, double balance, string bankName)
-        {
-            Name = name;
-            AccountNo = accountNo;
-            Balance = balance;
-            BankName = bankName;
-
-        }
-        public Account(string name, double balance, string bankName)
-        {
-            Name = name;
-            Balance = balance;
-            BankName = bankName;
-
-        }
-        public Account(string bankName, string name, long accountNo, double balance)
-        {
-            Name = name;
-            AccountNo = accountNo;
-            Balance = balance;
-            BankName = bankName;
-
-        }
-        //public override string ToString()
-        //{
-        //    return base.ToString(); //This is return only class name
-        //}
-        public override string ToString()
-        {
-            return $"account:[name :{Name} , BankName :{BankName} , AccountNo :{AccountNo} , Balance :{Balance} ]";
-        }
-
-    }
+    //}
 
 
 
-    // MObile-----------------------------------------------------------------------------
-    public class Mobile
-    {
-        public string Brand { get; set; }
-        public double Price { get; set; }
-        public int RAM { get; set; }
-        public int ROM { get; set; }
 
-        public Mobile()
-        {
-            Brand = "Oneplus";
-            Price = 35000;
-            RAM = 8;
-            ROM = 512;
+    ////Room--------------------------------------------------------------------------------
+    //public class Room
+    //{
+    //    private int RoomNo { get; set; }
+    //    private double Rent { get; set; }
+    //    private string Address { get; set; }
 
-        }
-        public override string ToString()
-        {
-            return $"Mobile [Brand :{Brand} , Price : {Price} ,RAM :{RAM} ,ROM: {ROM} ]";
-        }
+    //    public Room()
+    //    {
+    //        RoomNo = 1;
+    //        Rent = 15000;
+    //        Address = "Narayan Peth";
+    //    }
+    //    public Room(int roomNo)
+    //    {
+    //        this.RoomNo = roomNo;
+    //    }
+    //    public Room(int roomNo, double rent, string address)
+    //    {
+    //        this.RoomNo = roomNo;
+    //        this.Rent = rent;
+    //        this.Address = address;
+    //    }
+    //    public override string ToString()
+    //    {
+    //        return $"Person :[RoomNo:{RoomNo} ,Rent: {Rent}, Address: {Address}]";
+    //    }
+
+    //}
+
+    ////Watch-------------------------------------------------------------------------------
+    //public class Watch
+    //{
+    //    public string Company { get; set; }
+    //    public string Type { get; set; }
+    //    public double Price { get; set; }
+
+    //    public Watch()
+    //    {
+    //        Company = "Apple";
+    //        Type = "Smart";
+    //        Price = 34500;
+
+    //    }
+
+    //    public override string ToString()
+    //    {
+    //        return $"Watch :[Company:{Company} ,Type : {Type}, Price: {Price}]";
+    //    }
 
 
-    }
+    //}
 
-    //Laptop------------------------------------------------------------------------------
-    public class Laptop
-    {
-        public string Company { get; set; }
-        public string Processor { get; set; }
-        public int RAM { get; set; }
-        public int Storage { get; set; }
+    ////Book--------------------------------------------------------------------------------
+    //public class Book
+    //{
+    //    public string Name { get; set; }
+    //    public string Author { get; set; }
+    //    public double Price { get; set; }
 
-        public Laptop()
-        {
-            Company = "HP";
-            Processor = "intel i5";
-            RAM = 16;
-            Storage = 512;
-        }
-        public override string ToString()
-        {
-            return $"[Company:{Company} ,Processor :{Processor}, RAM: {RAM}, Storage:{Storage}]";
-        }
-    }
+    //    public Book()
+    //    {
+    //        Name = "Can we be strengers again?";
+    //        Author = "Shrijeet Shandilya";
+    //        Price = 250;
+    //    }
 
-    //Circle------------------------------------------------------------------------------
-    public class Circle
-    {
-        public double Redius { get; set; }
+    //    public Book(string name, string author, double price)
+    //    {
+    //        Name = name;
+    //        Author = author;
+    //        Price = price;
+    //    }
 
-        public Circle(double redius)
-        {
-            Redius = redius;
-        }
-        public Circle()
-        {
-            Redius = 2;
-        }
-        public override string ToString()
-        {
-            return $"Redis of Circle is : {Redius} \nArea of Circle is :{3.14 * Redius * Redius} ";
-        }
-    }
+    //    public Book(string name, double price)
+    //    {
+    //        Name = name;
+    //        Price = price;
+    //    }
 
-    //Movie---------------------------------------------------------------------------------
-    public class Movie
-    {
-        public string Name { get; set; }
-        public string Director { get; set; }
-        public double Collection { get; set; }
+    //    public override string ToString()
+    //    {
+    //        return $"Book [ Name :{Name} ,Author :{Author} ,Price :{Price} ]";
+    //    }
+    //}
 
-        public Movie()
-        {
-            Name = "3 Idiots";
-            Director = "Rajkumar Hirani";
-            Collection = 2000000000;
-        }
 
-        public override string ToString()
-        {
-            return $"Movie :[Movie Name :{Name} , Director :{Director}, Collection :{Collection} ]";
-        }
+    ////Account-----------------------------------------------------------------------------
+    //public class Account
+    //{
+    //    public string Name { get; set; }
+    //    public long AccountNo { get; set; }
+    //    private double balance;
+    //    public double Balance
+    //    {
+    //        get { return balance; }
+    //        set { balance = value; }
+    //    }
+    //    public string BankName { get; set; }
 
-    }
+    //    public Account()
+    //    {
+    //        Name = "Tanaji Pise";
+    //        AccountNo = 4235879090005;
+    //        balance = 1000000;
+    //        BankName = "SBI";
+    //    }
+    //    public Account(string name, long accountNo, double balance, string bankName)
+    //    {
+    //        Name = name;
+    //        AccountNo = accountNo;
+    //        Balance = balance;
+    //        BankName = bankName;
 
-    //Country------------------------------------------------------------------------------
-    public class Country
-    {
-        public string Name { get; set; }
-        public int Population { get; set; }
-        public string Capital { get; set; }
+    //    }
+    //    public Account(string name, double balance, string bankName)
+    //    {
+    //        Name = name;
+    //        Balance = balance;
+    //        BankName = bankName;
 
-        public Country()
-        {
-            Name = "India";
-            Population = 1250000000;
-            Capital = "Delhi";
-        }
-        public Country(string name, int population, string capital)
-        {
-            Name = name;
-            Population = population;
-            Capital = capital;
-        }
-        public override string ToString()
-        {
-            return $"Country [Name :{Name} , Capital :{Capital} , Population :{Population} ]";
-        }
-    }
+    //    }
+    //    public Account(string bankName, string name, long accountNo, double balance)
+    //    {
+    //        Name = name;
+    //        AccountNo = accountNo;
+    //        Balance = balance;
+    //        BankName = bankName;
 
-    //Company------------------------------------------------------------------------------
-    public class Company
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Location { get; set; }
-        public int EmployeeCount { get; set; }
+    //    }
+    //    //public override string ToString()
+    //    //{
+    //    //    return base.ToString(); //This is return only class name
+    //    //}
+    //    public override string ToString()
+    //    {
+    //        return $"account:[name :{Name} , BankName :{BankName} , AccountNo :{AccountNo} , Balance :{Balance} ]";
+    //    }
 
-        public Company()
-        {
-            Id = 101;
-            Name = "TCS";
-            Location = "Mumbai";
-            EmployeeCount = 6000000;
-        }
+    //}
 
-        public Company(int id, string name, string location, int employeeCount)
-        {
-            Id = id;
-            Name = name;
-            Location = location;
-            EmployeeCount = employeeCount;
-        }
 
-        public Company(string name, string location, int employeeCount)
-        {
-            Id = 102;
-            Name = name;
-            Location = location;
-            EmployeeCount = employeeCount;
-        }
 
-        public override string ToString()
-        {
-            return $"Company[ ID:{Id} ,Name :{Name} ,Location :{Location} ,EmployeeCount :{EmployeeCount} ]";
-        }
-    }
+    //// MObile-----------------------------------------------------------------------------
+    //public class Mobile
+    //{
+    //    public string Brand { get; set; }
+    //    public double Price { get; set; }
+    //    public int RAM { get; set; }
+    //    public int ROM { get; set; }
 
-    //Bike---------------------------------------------------------------------------------
-    public class Bike
-    {
-        public string Name { get; set; }
-        public string Brand { get; set; }
-        public double Price { get; set; }
+    //    public Mobile()
+    //    {
+    //        Brand = "Oneplus";
+    //        Price = 35000;
+    //        RAM = 8;
+    //        ROM = 512;
 
-        public string Color { get; set; }
+    //    }
+    //    public override string ToString()
+    //    {
+    //        return $"Mobile [Brand :{Brand} , Price : {Price} ,RAM :{RAM} ,ROM: {ROM} ]";
+    //    }
 
-        public Bike()
-        {
-            Name = "Royal Enfield Classic 350";
-            Brand = "Royal Enfield";
-            Price = 200000;
-            Color = "Black";
-        }
-        public Bike(string name, string brand, double price, string color)
-        {
-            Name = name;
-            Brand = brand;
-            Price = price;
-            Color = color;
-        }
 
-        public override string ToString()
-        {
-            return $"Name:{Name} ,Brand:{Brand} ,Price:{Price} ,Color:{Color}";
-        }
-    }
+    //}
+
+    ////Laptop------------------------------------------------------------------------------
+    //public class Laptop
+    //{
+    //    public string Company { get; set; }
+    //    public string Processor { get; set; }
+    //    public int RAM { get; set; }
+    //    public int Storage { get; set; }
+
+    //    public Laptop()
+    //    {
+    //        Company = "HP";
+    //        Processor = "intel i5";
+    //        RAM = 16;
+    //        Storage = 512;
+    //    }
+    //    public override string ToString()
+    //    {
+    //        return $"[Company:{Company} ,Processor :{Processor}, RAM: {RAM}, Storage:{Storage}]";
+    //    }
+    //}
+
+    ////Circle------------------------------------------------------------------------------
+    //public class Circle
+    //{
+    //    public double Redius { get; set; }
+
+    //    public Circle(double redius)
+    //    {
+    //        Redius = redius;
+    //    }
+    //    public Circle()
+    //    {
+    //        Redius = 2;
+    //    }
+    //    public override string ToString()
+    //    {
+    //        return $"Redis of Circle is : {Redius} \nArea of Circle is :{3.14 * Redius * Redius} ";
+    //    }
+    //}
+
+    ////Movie---------------------------------------------------------------------------------
+    //public class Movie
+    //{
+    //    public string Name { get; set; }
+    //    public string Director { get; set; }
+    //    public double Collection { get; set; }
+
+    //    public Movie()
+    //    {
+    //        Name = "3 Idiots";
+    //        Director = "Rajkumar Hirani";
+    //        Collection = 2000000000;
+    //    }
+
+    //    public override string ToString()
+    //    {
+    //        return $"Movie :[Movie Name :{Name} , Director :{Director}, Collection :{Collection} ]";
+    //    }
+
+    //}
+
+    ////Country------------------------------------------------------------------------------
+    //public class Country
+    //{
+    //    public string Name { get; set; }
+    //    public int Population { get; set; }
+    //    public string Capital { get; set; }
+
+    //    public Country()
+    //    {
+    //        Name = "India";
+    //        Population = 1250000000;
+    //        Capital = "Delhi";
+    //    }
+    //    public Country(string name, int population, string capital)
+    //    {
+    //        Name = name;
+    //        Population = population;
+    //        Capital = capital;
+    //    }
+    //    public override string ToString()
+    //    {
+    //        return $"Country [Name :{Name} , Capital :{Capital} , Population :{Population} ]";
+    //    }
+    //}
+
+    ////Company------------------------------------------------------------------------------
+    //public class Company
+    //{
+    //    public int Id { get; set; }
+    //    public string Name { get; set; }
+    //    public string Location { get; set; }
+    //    public int EmployeeCount { get; set; }
+
+    //    public Company()
+    //    {
+    //        Id = 101;
+    //        Name = "TCS";
+    //        Location = "Mumbai";
+    //        EmployeeCount = 6000000;
+    //    }
+
+    //    public Company(int id, string name, string location, int employeeCount)
+    //    {
+    //        Id = id;
+    //        Name = name;
+    //        Location = location;
+    //        EmployeeCount = employeeCount;
+    //    }
+
+    //    public Company(string name, string location, int employeeCount)
+    //    {
+    //        Id = 102;
+    //        Name = name;
+    //        Location = location;
+    //        EmployeeCount = employeeCount;
+    //    }
+
+    //    public override string ToString()
+    //    {
+    //        return $"Company[ ID:{Id} ,Name :{Name} ,Location :{Location} ,EmployeeCount :{EmployeeCount} ]";
+    //    }
+    //}
+
+    ////Bike---------------------------------------------------------------------------------
+    //public class Bike
+    //{
+    //    public string Name { get; set; }
+    //    public string Brand { get; set; }
+    //    public double Price { get; set; }
+
+    //    public string Color { get; set; }
+
+    //    public Bike()
+    //    {
+    //        Name = "Royal Enfield Classic 350";
+    //        Brand = "Royal Enfield";
+    //        Price = 200000;
+    //        Color = "Black";
+    //    }
+    //    public Bike(string name, string brand, double price, string color)
+    //    {
+    //        Name = name;
+    //        Brand = brand;
+    //        Price = price;
+    //        Color = color;
+    //    }
+
+    //    public override string ToString()
+    //    {
+    //        return $"Name:{Name} ,Brand:{Brand} ,Price:{Price} ,Color:{Color}";
+    //    }
+    //}
 
     //========================================================================================================================================================================
     ////28-01-2026
@@ -505,31 +506,32 @@ namespace OOPs.Models
             Console.WriteLine($"Id :{ID} ,name is {Name} ,Age is {Age}");
         }
     }
+    //================================================================================================================================================================
 
     //31/1/2026
     //copy constructor
 
-    public class Student1
-    { 
-        public int ID { get; set; }
-        public string Name {  get; set; }
+    //public class Student1
+    //{ 
+    //    public int ID { get; set; }
+    //    public string Name {  get; set; }
 
-        public Student1(int id,string name)
-        {
-            ID = id;
-            Name = name;
-        }
-        public Student1(Student1 s)
-        {
-            ID = s.ID;
-            Name =s.Name;
-        }
+    //    public Student1(int id,string name)
+    //    {
+    //        ID = id;
+    //        Name = name;
+    //    }
+    //    public Student1(Student1 s)
+    //    {
+    //        ID = s.ID;
+    //        Name =s.Name;
+    //    }
 
-        public override string ToString()
-        {
-            return $"ID :{ID} Name:{Name}";
-        }
-    }
+    //    public override string ToString()
+    //    {
+    //        return $"ID :{ID} Name:{Name}";
+    //    }
+    //}
 
 
 
@@ -762,25 +764,25 @@ namespace OOPs.Models
     //just chack if filed is static then how to work // and find out the how many times create the object for the class
 
 
-    public class Sparrow
-    {
+    //public class Sparrow
+    //{
 
-        public int count = 0;    // when we increment in constructor thats not affected here for each time count=0;x=0;
-        public int x = 0;       // its instance variable that why its take memory in obj and it is part of object
+    //    public int count = 0;    // when we increment in constructor thats not affected here for each time count=0;x=0;
+    //    public int x = 0;       // its instance variable that why its take memory in obj and it is part of object
 
-        public Sparrow()
-        {
-            count++;
-            x++;
-        }
+    //    public Sparrow()
+    //    {
+    //        count++;
+    //        x++;
+    //    }
 
-        public override string ToString()
-        {
-            return $"Count :{count} , x :{x}";
-        }
+    //    public override string ToString()
+    //    {
+    //        return $"Count :{count} , x :{x}";
+    //    }
 
 
-    }
+    //}
 
     public class Sparrow1
     {
@@ -817,10 +819,72 @@ namespace OOPs.Models
 
     }
 
+    //Static Constructor
+    public class Sparrow3
+    { 
+        public static int count = 0;
+        public int y = 0;
+
+        static Sparrow3()
+        {
+            count++;
+        }
+
+        public override string ToString()
+        {
+            return $" Count: {count} ";
+        }
+    }
+
+    public class Sparrow4
+    {
+        public static int count = 0;
+        public static int y = 0;
+
+        static Sparrow4()
+        {
+            count++;
+        }
+
+        public Sparrow4()
+        {
+            y++;
+        }
+        public override string ToString()
+        {
+            return $"count : {count}  Y :{y}";
+        }
+    }
+
+    class Example
+    {
+        public static int count;
+        public int x;
+
+        static Example()
+        {
+            count = 50;
+            Console.WriteLine("Static constructor called");
+        }
+
+        public Example()
+        {
+            x = ++count;
+        }
+
+        public override string ToString()
+        {
+            return $"Count: {count}, X: {x}";
+        }
+    }
+
+
 
 
 
     //===========================================================================================================================================
+    //04/02/2026
+    //homework
     //Static Method vs Instance Method 
 
     //Exercise 1: Identify Static vs Instance
@@ -930,6 +994,13 @@ namespace OOPs.Models
             Console.WriteLine("Hello " + name);
         }
     }
+
+
+   
+
+
+   
+
 
 
 

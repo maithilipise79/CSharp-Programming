@@ -1,7 +1,12 @@
 ﻿using OOPs.Models;
+using OOPs.Polymorphism.MethodOverloading.BasicsLevelProblem;
+using OOPs.Polymorphism.MethodOverloading.IntermediateLevelProblem;
+using OOPs.Polymorphism.MethodOverloading.AdvancedLevelProblem;
 using System;
 using System.Buffers.Text;
+using System.Diagnostics.Metrics;
 using System.Reflection;
+using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
 using static System.Collections.Specialized.BitVector32;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -1215,7 +1220,23 @@ namespace OOPs
             //09/02/2026
             //Classwork
 
+            //DemoModel model = new DemoModel()
+            //{
+            //    Nums = new int[] { 5, 2, 9, 1, 3 }
+            //};
+            //////here we are using constructor injection to inject the model object into the service class
+            ////DemoService service = new DemoService();
+            ////service.Display();
 
+
+            //DemoService service = new DemoService(model);
+            //service.Display();
+           
+            //int maxNumber = service.GetMaxNumber();
+            //Console.WriteLine($"Maximum number: {maxNumber}");
+
+            //Console.WriteLine("Sorted array:");
+            //service.SortArray();
 
 
 
@@ -1270,8 +1291,8 @@ namespace OOPs
 
             //HAS-A Relationship Layered Architecture Example
 
-            //TransactionRepository repo=new TransactionRepository();
-            //TransactionService services =new TransactionService(repo);
+            //TransactionRepository repo = new TransactionRepository();
+            //TransactionService services = new TransactionService(repo);
             //TransactionController controller = new TransactionController(services);
             //controller.Run();
 
@@ -1290,8 +1311,8 @@ namespace OOPs
             //3)Assignment 2: Employee Salary System
 
             //EmployeeRepository repository = new EmployeeRepository();
-            //EmployeeService service = new EmployeeService( repository);
-            //EmployeeController employeeController = new EmployeeController( service);
+            //EmployeeService service = new EmployeeService(repository);
+            //EmployeeController employeeController = new EmployeeController(service);
             //employeeController.Run();
 
 
@@ -1320,7 +1341,91 @@ namespace OOPs
 
 
             //==============================================================================================================================================================
+            //Polymorphism
+            //11/02/2026
 
+            //1)Compile-Time Polymorphism
+            //2)Run-Time Polymorphism
+
+            //Homework
+
+            //Basic Level----------------------------------------------
+
+
+
+            //1)Create a class Calculator and overload a method Multiply(): (Two integers, Three integers)
+            //Console.WriteLine("3 X 5 :"+Calculator1.Multiply(3, 5));
+            //Console.WriteLine("3 X 5 X 6:"+Calculator1.Multiply(3, 5,6));
+            //Console.WriteLine("3 X 5 X 9:"+Calculator1.Multiply(3, 5,9));
+
+
+            //2) Create a method Display() that accepts: (int, string)
+            //Show.Display(2, "Pooja");
+            //Show.Display();
+
+
+            //3)Overload a method Area() to calculate: (Area of square, Area of rectangle)
+            //Shapes.Area(4);
+            //Shapes.Area(2, 4);
+
+
+            //4)Create a method PrintDetails() that takes: (name, name and age)
+            //UserDetails.PrintDetails("Maithili", "Pise", 23);
+            //UserDetails.PrintDetails("Pooja", 23,"Tekale");
+            //UserDetails.PrintDetails("Maithili", "Pise", 23);
+
+
+
+            //5)Is method overloading possible by changing only return type ? Explain with code.
+            //Ans. NO
+            //because even return type of method id different but still signature of the method is same;
+            //signature (name,parameters)does not include return type 
+            //That why method overloading is not possible id signature is same even return type is different
+
+
+
+            //• INTERMEDIATE LEVEL-----------------------------------------------
+
+
+
+            //6) Create a class Student and overload a method GetResult() : (Accept total marks, Accept marks of 3 subjects separately)
+            //Console.WriteLine(StudentInfo.GetResult(100));
+            //Console.WriteLine(StudentInfo.GetResult(67,89,76));
+
+
+
+            //7)Overload a method Add() for: (int, double, decimal)
+            //Console.WriteLine(Addition.Add(34, 54.4, 356));
+            //Console.WriteLine(Addition.Add(54.9874,56.80m, 356));
+            //Console.WriteLine(Addition.Add(34.87m,58, 356));
+            //Console.WriteLine(Addition.Add(34, 54.4, 356.876m));
+
+
+
+            //8)Create overloaded methods where parameter order is different but types are same.
+            //DifferentOrder.M1(1, "Pooja", 90000);
+            //DifferentOrder.M1("Maithili",4, 90000.0);
+            //DifferentOrder.M1(2s, 90000.0,"Gayatri");
+
+
+            //9)Create a method SendMessage() that works for: (Mobile number, Email, Mobile number with country code)
+            //Console.WriteLine(Message.SendMessage("pise@gmail.com", 78409323333,91));
+
+
+            //10)What will happen if two overloaded methods match due to implicit type conversion?
+            //error is occurs
+
+
+
+            //ADVANCED LEVEL----------------------------------------------------
+
+
+
+
+            //11)Create a Payment class with overloaded Pay() methods for: (Cash, Card, UPI
+            //Payment obj = new Payment(40000, 43256465, "MP12300000");
+            //obj.Pay(8000);
+            //obj.Pay(8000, "MP12300000");
 
         }
 
