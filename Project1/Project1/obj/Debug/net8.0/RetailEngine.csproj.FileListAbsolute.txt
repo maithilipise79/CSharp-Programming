@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\Project1\Project1\bin\Debug\net8.0\RetailEngine.exe
+C:\2025\CSharp-Programming\Project1\Project1\bin\Debug\net8.0\RetailEngine.deps.json
+C:\2025\CSharp-Programming\Project1\Project1\bin\Debug\net8.0\RetailEngine.runtimeconfig.json
+C:\2025\CSharp-Programming\Project1\Project1\bin\Debug\net8.0\RetailEngine.dll
+C:\2025\CSharp-Programming\Project1\Project1\bin\Debug\net8.0\RetailEngine.pdb
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.AssemblyInfo.cs
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.sourcelink.json
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.dll
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\refint\RetailEngine.dll
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.pdb
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\RetailEngine.genruntimeconfig.cache
+C:\2025\CSharp-Programming\Project1\Project1\obj\Debug\net8.0\ref\RetailEngine.dll
