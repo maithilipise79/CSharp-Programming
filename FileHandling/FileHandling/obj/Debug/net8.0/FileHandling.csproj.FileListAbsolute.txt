@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.exe
+C:\2025\CSharp-Programming\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.deps.json
+C:\2025\CSharp-Programming\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.runtimeconfig.json
+C:\2025\CSharp-Programming\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.dll
+C:\2025\CSharp-Programming\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.pdb
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.AssemblyInfo.cs
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.sourcelink.json
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.dll
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\refint\FileHandling.dll
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.pdb
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.genruntimeconfig.cache
+C:\2025\CSharp-Programming\FileHandling\FileHandling\obj\Debug\net8.0\ref\FileHandling.dll
