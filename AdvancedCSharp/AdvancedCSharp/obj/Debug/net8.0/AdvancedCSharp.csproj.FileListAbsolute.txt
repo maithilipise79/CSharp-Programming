@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.AssemblyInfo.cs
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.sourcelink.json
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\bin\Debug\net8.0\AdvancedCSharp.exe
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\bin\Debug\net8.0\AdvancedCSharp.deps.json
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\bin\Debug\net8.0\AdvancedCSharp.runtimeconfig.json
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\bin\Debug\net8.0\AdvancedCSharp.dll
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\bin\Debug\net8.0\AdvancedCSharp.pdb
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.dll
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\refint\AdvancedCSharp.dll
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.pdb
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\AdvancedCSharp.genruntimeconfig.cache
+C:\2025\CSharp-Programming\AdvancedCSharp\AdvancedCSharp\obj\Debug\net8.0\ref\AdvancedCSharp.dll

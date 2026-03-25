@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\2025\\CSharp-Programming\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\workflow\\processhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\workflow\\processhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\workflow\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\workflow\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\builders\\entityinputbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\builders\\entityinputbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|c:\\2025\\csharp-programming\\project1\\project1\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C816C0F-ED3E-40E4-8EE8-7AFEAFCDCE40}|Project1\\RetailEngine.csproj|solutionrelative:project1\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,23 +42,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntityInputBuilder.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Builders\\EntityInputBuilder.cs",
+              "RelativeDocumentMoniker": "Project1\\Builders\\EntityInputBuilder.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Builders\\EntityInputBuilder.cs",
+              "RelativeToolTip": "Project1\\Builders\\EntityInputBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:45:39.464Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Workflow\\MenuController.cs",
+              "RelativeDocumentMoniker": "Project1\\Workflow\\MenuController.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Workflow\\MenuController.cs",
+              "RelativeToolTip": "Project1\\Workflow\\MenuController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:43:40.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessHandler.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Workflow\\ProcessHandler.cs",
+              "RelativeDocumentMoniker": "Project1\\Workflow\\ProcessHandler.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Workflow\\ProcessHandler.cs",
+              "RelativeToolTip": "Project1\\Workflow\\ProcessHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T05:50:49.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Project1\\Entities\\Category.cs",
               "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Entities\\Category.cs",
               "RelativeToolTip": "Project1\\Entities\\Category.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T17:02:58.026Z"
+              "WhenOpened": "2026-03-04T09:54:57.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Project1\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Project1\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:54:55.717Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Project1\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Project1\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:54:39.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Project1\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Project1\\Repositories\\Repository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:54:31.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Program.cs",
               "RelativeDocumentMoniker": "Project1\\Program.cs",
@@ -46,20 +143,7 @@
               "RelativeToolTip": "Project1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:53:18.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Project1\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Project1\\Project1\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Project1\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T15:33:51.302Z"
+              "WhenOpened": "2026-02-26T14:53:18.256Z"
             }
           ]
         }

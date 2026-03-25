@@ -1,12 +1,18 @@
-﻿using OOPs.Models;
+﻿using OOPs.Interface;
+using OOPs.Interface.Task;
+using OOPs.Models;
+using OOPs.Polymorphism.MethodOverloading.AdvancedLevelProblem;
 using OOPs.Polymorphism.MethodOverloading.BasicsLevelProblem;
 using OOPs.Polymorphism.MethodOverloading.IntermediateLevelProblem;
-using OOPs.Polymorphism.MethodOverloading.AdvancedLevelProblem;
+using OOPs.Polymorphism.MethodOverriding;
+using OOPs.Task_based_on_all_OOPS;
 using System;
 using System.Buffers.Text;
 using System.Diagnostics.Metrics;
+using System.Dynamic;
 using System.Reflection;
 using System.Reflection.Metadata;
+using System.Reflection.PortableExecutable;
 using System.Runtime.Intrinsics.X86;
 using static System.Collections.Specialized.BitVector32;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -1231,7 +1237,7 @@ namespace OOPs
 
             //DemoService service = new DemoService(model);
             //service.Display();
-           
+
             //int maxNumber = service.GetMaxNumber();
             //Console.WriteLine($"Maximum number: {maxNumber}");
 
@@ -1340,6 +1346,8 @@ namespace OOPs
             //car.StopCar();
 
 
+
+
             //==============================================================================================================================================================
             //Polymorphism
             //11/02/2026
@@ -1427,11 +1435,436 @@ namespace OOPs
             //obj.Pay(8000);
             //obj.Pay(8000, "MP12300000");
 
+
+
+
+            //=============================================================================================================================================================================
+
+            //Circle1 c=new Circle1();
+            //Console.WriteLine(c.GetArea());
+            //Console.WriteLine(c.GetPerimeter());
+            //Console.WriteLine(c);
+
+            //Rectangle1 rect = 4++++ Rectangle1(4,6,"white",true);
+            //Console.WriteLine(rect.GetArea());  
+            //Console.WriteLine(rect.GetPerimeter());  
+            //Console.WriteLine(rect);  
+
+
+
+
+
+            //========================================================================================================================
+            //14/02/2026
+
+            //Layered architecture by using List
+            //Category category = new Category
+            //{ 
+            //    ID =1,
+            //    Name="Electronics"
+            //};
+            //Product product1 = new Product
+            //{
+            //    ID = 101,
+            //    Name = "Mobile",
+            //    Price = 40000,
+            //    Category=category
+
+            //};
+            //Product product2 = new Product 
+            //{
+            //    ID=102,
+            //    Name="Laptop",
+            //    Price=80000,
+            //    Category=category
+            //};
+            //Shop shop1 = new Shop
+            //{ 
+            //    ID=1001,
+            //    Name="store1",
+            //    Products =new List<Product> { product1,product2}
+            //};
+
+            //Console.WriteLine(shop1);
+
+
+            //based on that 
+            //09/02/2026
+            //Homework (remaining two examples which is based on List
+
+
+
+
+
+            //===============================================================================================================================================
+            //==============================================================================================================================================
+
+            //Interface
+
+
+            //16/02/2026
+            //Class Work
+
+
+
+
+
+
+
+
+            //=====================================================================================================================
+            //17/02/2026
+            //Class work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //======================================================================================================================
+            //17/02/2026
+            //Homework
+
+
+            //1)
+            ////Create an interface for animals where different animals produce different sounds.
+            //IAnimal animal1 = new Dog(); //upcasting
+            //animal1.Sound();
+            //animal1.Eat();
+            //IAnimal animal2 = new Cat();
+            //animal2.Sound();
+            //animal2.Eat();
+            //Cat cat = new Cat();
+            //cat.Sound();
+            //cat.Eat();
+
+            //IAnimal animal3 = new Cow();
+            //animal3.Sound();
+            //animal3.Eat();
+            //when we call color method that time error is occurs because - the compiler only knows about the methods defined in the interface (Eat(), MakeSound()).
+            //Even though the actual object is a Cow, the reference type(IAnimal) restricts you to the interface contract.
+            //That’s why calling animal.Color() gives an error — Color() is not part of IAnimal.
+
+            //((Cow)animal3).Color();//but we call through this 
+            //((Cow)animal).Color(); is a downcast call — you’re telling the compiler “treat this interface reference as a Cow object” so you can access methods that belong only to Cow.
+
+
+            //-----------------------------------------
+
+            //2)
+            //Design a vehicle interface that allows starting and stopping different vehicle types.
+            //VehicalInfo obj1 = new VehicalInfo("G-Wagon", "Electric");
+
+            //IVehical v1=new Car(obj1);
+            //v1.Start();
+            //v1.Stop();
+            //Console.WriteLine(v1.ToString());
+
+            //VehicalInfo obj2 = new VehicalInfo("Ather", "Electric");
+            //IVehical v2 = new Bike(obj2);
+            //v2.Start();
+            //v2.Stop();
+            //Console.WriteLine(v2.ToString());
+
+
+
+            //----------------------------------
+
+            //3)
+            //Create an interface that forces every person to introduce themselves using their name.
+
+            //IPerson person1 = new BackendDeveloper();
+            //person1.PersonIntro("Pooja");
+            //IPerson person2 = new FrontendDeveloper();
+            //person2.PersonIntro("Maithili");
+            //IPerson person3 = new HR();
+            //person3.PersonIntro("Gayatri");
+            //IPerson person4 = new Manager();
+            //person4.PersonIntro("Rutuja");
+
+
+
+            //-----------------------------------
+
+            //4)
+            //Write a method that accepts any object implementing an animal interface and makes it perform its behavior.
+
+
+
+
+
+            //-----------------------------------
+
+            //5)
+            //
+
+
+            //-----------------------------------
+
+
+            //6)//Design a payment system supporting multiple payment methods (UPI, card, cash).
+            //IPayment obj1 = new UPI();
+            //obj1.Payment();
+            //IPayment obj2 = new Card();
+            //obj2.Payment();
+            //IPayment obj3 = new Cash();
+            //obj3.Payment();
+
+
+            //------------------------------------
+
+            //7)Create a logging system that can log messages to different destinations.
+            //ILogger obj1 = new FileClass();
+            //obj1.Log("File uploaded by user.");
+            //ILogger obj2= new DocumentClass();
+            //obj2.Log("Application started successfully");
+            //ILogger obj3 = new Email();
+            //obj3.Log("Email sent Successfully");
+
+
+            //-------------------------------------
+
+
+            //8)//Build a notification system that can send messages through multiple platforms.
+            //INotification notify1 = new WhatsApp();
+            //notify1.SendNotification();
+            //INotification notify2 = new Instagram();
+            //notify2.SendNotification();
+            //INotification notify3 = new LinkedIn();
+            //notify3.SendNotification();
+
+
+            //--------------------------------------
+
+            //9)
+            //Implement a login system supporting multiple authentication providers.
+            //
+
+
+
+
+            //---------------------------------------
+
+            //10)
+            //Implement a pricing system where different users get different discounts.
+
+
+
+
+
+
+            //----------------------------------------
+
+            //11)
+            // Create a generic repository abstraction supporting basic CRUD operations.
+
+
+
+
+
+            //-----------------------------------------
+
+
+            //12)
+            //Create a service layer that uses the repository to manage users.
+
+
+
+
+
+            //-------------------------------------------
+
+
+            //13)
+            //Inject dependencies into a controller using interfaces instead of concrete classes.
+
+
+
+
+
+            //-------------------------------------------
+
+
+            //14)
+            //Design a caching service abstraction supporting add, get, and remove operations.
+
+
+
+
+
+            //-------------------------------------------
+
+
+            //15)
+            //Create a file storage abstraction that can store files in different locations.
+
+
+
+
+
+            //==========================================================================================================================================
+            //18/02/2026
+            //Factory Pattern
+
+
+
+
+
+
+
+
+            //=============================================================================================================================================
+            //=============================================================================================================================================
+            //HomeWorks Based on Oops
+            //Basics
+
+
+
+            //1)Student Class
+            //StudentInformation s = new StudentInformation(23, "Shivtej", 88);
+            //s.Display();
+            //StudentInformation s2 = new StudentInformation();
+            //s2.Display();
+
+
+
+            //2)Rectangle Class
+            //Rectangle no1 = new Rectangle(4, 6);
+            //Console.WriteLine(no1.CalculateArea());
+            //Console.WriteLine(no1.CalculatePerimeter());
+
+
+            //3)Car Class
+            //Car obj=new Car("TATA Motors","Nano",2008);
+            //obj.StartCar();
+            //obj.StopCar();
+
+
+            //-----------------------------
+            //3. ENCAPSULATION EXERCISES
+
+            //4)BankAccount
+            //BankAccount acc1=new BankAccount();
+            //acc1.AccountNumber = 40077009;
+            //acc1.Balance = 600000;
+            //acc1.BankService();
+
+
+            //5) Employee
+            //Employee emp = new Employee();
+            //emp.SetSalary(75000);
+            //Console.WriteLine(emp.GetSalary());
+            //emp.SetSalary(-75000);
+
+
+            //------------------------------
+            //4. CONSTRUCTOR EXERCISES
+
+
+            //6) Mobile Class
+            //Mobile obj1= new Mobile();
+            //obj1.Display();
+            //Mobile obj2= new Mobile("Samsung S24",75000);
+            //obj2.Display();
+
+
+            //7) Book Class
+            //Book n1=new Book("Mrutunjay","Shivaji Sawant",300);
+            //Console.WriteLine(n1);
+
+
+            //-------------------------------
+            //INHERITANCE EXERCISES
+
+
+            //8)Exercise 8: Person -> Student
+            //Student s1 = new Student(11, 87, "Maithili", 23);
+            //s1.Display();
+            //Person s2 = new Student();
+            //s2.Display(); //call parent method
+            //Person p = new Person("Shiv", 16);
+            //Student s3= new Student(12,65);//it call base default constructor that why name and age is not print
+            //s3.Display();
+
+
+            //9)Exercise 9: Animal -> Dog
+            //Dog obj=new Dog();
+            //obj.Eat();
+            //obj.Bark();
+            //Animal obj2 = new Dog();
+            //obj2.Eat
+
+
+            //--------------------------
+            //6. POLYMORPHISM EXERCISES
+
+
+            //10)Exercise 10: Method Overloading (Calculator)
+            //AdditionCalculator obj = new AdditionCalculator();
+            //obj.Add(43, 64);
+            //obj.Add(53, 4, 77);
+            //obj.Add(56, 75.9);
+
+
+            //11)Exercise 11: Method Overriding
+            //Shape obj = new Circle();
+            //obj.Draw();//parent method call before use virtual and override keyword
+            //obj.Draw();//after virtual and override keyword child class method call
+            //Rectangle obj2=new Rectangle();
+            //obj2.Draw();
+
+
+
+            //-----------------------------
+            //7. ABSTRACTION EXERCISES
+
+
+            //12) Exercise 12: Abstract Class Vehicle
+            //Vehicle obj = new Bike();
+            //obj.Start();
+            //obj.Stop();
+            //Vehicle obj2 = new Car();
+            //obj2.Start();
+            //obj2.Stop();
+
+
+            //13)Exercise 13: Interface Example
+            //Playable obj1 = new Football();
+            //obj1.Play();
+            //Playable obj2 = new Cricket();
+            //obj2.Play();
+
+
+
+            //-------------------------------------
+            //Solid Principle
+
+            //Order
+            //Order order = new Order
+            //{
+            //    Amount = 500,
+            //    OrderID = 101
+            //};
+            //Factory obj = new Factory();
+            //obj.PaymentCounter(order);
+            
+
+
+            //---------------------------------------
+
+
         }
 
-
     }
-
 }
 
 

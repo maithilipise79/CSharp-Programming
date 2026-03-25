@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetailEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f464eeb465aba76fc322cba9f98d6799230f97dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78b48f839760c8614c2d37e23b3d680e5878efb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("RetailEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetailEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

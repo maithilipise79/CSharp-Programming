@@ -14,6 +14,7 @@ using System.Reflection.Emit;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Net.WebRequestMethods;
 using System.Text;
+using System.Text.Json;
 
 
 
@@ -492,15 +493,295 @@ using System.Text;
 
 
 
-FileStream fs = new FileStream("C:\\2025\\CSharp-Programming\\DemoFolder\\demo11.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-//Console.WriteLine(fs.Name);
-//Console.WriteLine(fs.Length);
-//Console.WriteLine(fs.Position);
-//Console.WriteLine(fs.CanRead);
-//Console.WriteLine(fs.CanWrite);
-Console.WriteLine(fs.CanSeek);
+//FileStream fs = new FileStream("C:\\2025\\CSharp-Programming\\DemoFolder\\demo11.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+//Console.WriteLine(fs.Name);       // Full path of the file (e.g., "C:\\Demo\\demo.txt")
+//Console.WriteLine(fs.Length);     // Size of the file in bytes
+//Console.WriteLine(fs.Position);   // Current pointer location in the file (where next read/write happens)
+//Console.WriteLine(fs.CanRead);    // True if the stream allows reading
+//Console.WriteLine(fs.CanWrite);   // True if the stream allows writing
+//Console.WriteLine(fs.CanSeek);    // True if you can move the pointer (seek) within the file
 
-//byte[] data = Encoding.UTF8.GetBytes("Hello World");
-//fs.Write(data);
-//fs.ReadByte();
+//-SeekOrigin.Begin → start of the file
+//- SeekOrigin.Current → current position
+//- SeekOrigin.End → end of the fil
+
+//------------------------------------------------
+
+//Read(byte[],offset,count)
+//-Meaning: Reads bytes from the file into a buffer (array).
+//- How it works: You give it a byte array, starting index, and how many bytes to read.
+
+//byte[] buffer = new byte [40];
+//int bytesRead=fs.Read(buffer, 0, buffer.Length);
+//Console.WriteLine("Bytes Read" + bytesRead);
+
+//--------------------------------------------------
+//Write(byte[], offset, count
+//-Meaning: Writes bytes from a buffer into the file.
+//- How it works: You specify which part of the array to write.
+
+//byte[] data = Encoding.UTF8.GetBytes("Hello Maithili");
+//fs.Write(data, 0, data.Length);
+//fs.Flush();
+
+//fs.Close();
+
+
+
+
+//=================================================================================================
+//================================================================================================
+//-----------------StreamReader------------------
+
+
+//The StreamReader class (in System.IO) is a high - level class used to read text from a stream (usually a file).
+//Unlike FileStream (which works with raw bytes), StreamReader automatically handles character encoding and gives you text directly.
+//-Easier to read text files (no need to convert bytes to strings manually).
+//-Supports reading line by line or the entire file at once.
+//-Handles different encodings (UTF8, ASCII, Unicode)
+
+
+//StreamReader sr = new StreamReader("C:\\2025\\CSharp-Programming\\DemoFolder\\demo11.txt");
+//string result=sr.ReadLine();
+//while(result != null)
+//{
+//    Console.WriteLine(result);
+//    result = sr.ReadLine();
+//}
+
+
+
+//string result=sr.ReadLine();
+//Console.Write(result);
+
+//Console.WriteLine("\n\n\n"+ sr.ReadToEnd());
+
+//sr.Close();  //- Without using block → you must call Close() yourself.
+
+
+
+//By using Block
+//-With using block → automatic cleanup.
+
+
+//using(StreamReader s=new StreamReader("C:\\2025\\CSharp-Programming\\DemoFolder\\demo11.txt"))
+//{
+//    Console.WriteLine((char)s.Read());
+//    Console.WriteLine(s.ReadLine());    
+//    Console.WriteLine(s.ReadToEnd());
+//}
+
+
+
+
+
+//=============================================================================================================
+//=============================================================================================================
+//--------------StreamWriter-------------------
+
+
+
+//The StreamWriter class (in System.IO) is the text - writing counterpart to StreamReader.
+//It lets you write text directly to a stream (usually a file), handling the conversion from characters to bytes automatically.
+//- Easier to write text files (no need to manually convert strings to byte arrays).
+//- Supports writing lines of text or entire blocks.
+//- Handles character encoding (UTF8, ASCII, Unicode, etc.).
+
+//we use using block that's why doesn't need to use Close() and Dispose()
+//using (StreamWriter s = new StreamWriter("C:\\2025\\CSharp-Programming\\DemoFolder\\demo1.txt"))
+//{
+//    s.Write("Hi................."); // writes without newline
+//    s.Write("Hi................."); // writes without newline
+//    s.WriteLine("hello Pooja...........");// writes with newline
+//    s.WriteLine("StreamWriter with using block.");
+//}
+
+//Console.WriteLine("Data add successfullly................");
+
+
+
+
+
+//=================================================================================================
+//=================================================================================================
+//06/03/2026
+//Class Work
+
+namespace FileHandling;
+using System.IO;
+using System.Xml.Serialization;
+
+public class Program
+{
+    //public static async Task Main(string[] args)
+    //{
+    //    using (FileStream fs = new FileStream("C:\\2025\\CSharp-Programming\\DemoFolder\\Practice.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+    //    {
+    //        using StreamWriter sw = new StreamWriter(fs);
+    //        await sw.WriteLineAsync("Hii ! \nI am Maithili");
+    //        await sw.WriteLineAsync("What's Update");
+    //        await sw.FlushAsync();
+
+    //    }
+    //}
+
+
+
+
+    //====================================================================================================================
+    //Homework
+
+
+    //public static async Task Main(string[] args)
+    //{
+    //    using(FileStream file=new FileStream("C:\\2025\\CSharp-Programming\\DemoFolder\\StudentInfo1.csv", FileMode.OpenOrCreate,FileAccess.ReadWrite))
+    //    {
+    //        using StreamWriter s=new StreamWriter(file);
+    //        char ans;
+
+    //        s.WriteLine("Name ,Age , Marks");
+
+    //        //int id = 1;
+    //        try
+    //        {
+    //            do
+    //            {
+    //                Console.WriteLine("How many Student records Do u want to add :");
+    //                int num = Convert.ToInt32(Console.ReadLine());
+    //                for (int i = 0; i < num; i++)
+    //                {
+
+    //                    Console.WriteLine("Enter student Name :");
+    //                    string name = Console.ReadLine();
+    //                    Console.WriteLine("Enter Student Age :");
+    //                    int age = Convert.ToInt32(Console.ReadLine());
+    //                    Console.WriteLine("Enter Marks out off 100 :");
+    //                    int marks = Convert.ToInt32(Console.ReadLine());
+
+    //                    await s.WriteLineAsync($"{name},{age},{marks}");
+
+    //                    //id++;
+
+    //                }
+    //                Console.WriteLine("Do you want perform operation one more time Y/N :");
+    //                ans = Console.ReadLine()[0];
+
+    //            } while (ans == 'Y' || ans == 'y');
+    //        }catch(Exception ex)
+    //        {
+    //            Console.WriteLine(ex.Message);
+    //        }
+
+    //        await s.FlushAsync();
+    //    }
+    //}
+
+
+    //=====================================================================================================================================================
+    //=====================================================================================================================================================
+    //Class Work
+    //10/03/2026
+
+
+    //Serilization in C# 
+    //1 Json 
+    //2 Binary 
+    //3 Xml 
+    // Custom
+
+
+    //public static void Main(string[] args)
+    //{
+    //  var cat = new
+    //  {
+    //      Name = "Test",
+    //      Age = 2,
+    //      Colur = "black",
+    //      arr =new int[] { 1,2,3,4},
+    //      names=new string[] { "mau", "Cau", "Chiu" }
+    //  };
+
+    //var fs=  File.Create("C:\\Test\\Abc.json");
+    //  JsonSerializer.Serialize(fs,cat);
+    //  fs.Flush();
+    //  fs.Close();
+
+    // var Json= File.ReadAllText("C:\\Test\\Student.json");
+
+    //JsonSerializer.Serialize(file,student);
+    //file.Flush();
+
+    //++++++++++++++++++++++++++
+
+    //Deserilize 
+    //string data= File.ReadAllText("C:\\Test\\Abc.json");
+    // Console.WriteLine(data);
+    // Console.WriteLine("+++++++++++++++++++++");
+    // var ob=JsonSerializer.Deserialize<Object>(data);
+    // Console.WriteLine(ob);
+    //    Student s = new Student()
+    //    {
+    //        Id = 1,
+    //        Name = "Raju"
+    //    };
+    //    XmlSerializer xmlSerializer = new XmlSerializer(typeof(Student));
+    //    FileStream fs = new FileStream("C://Test/b.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+    //    //xmlSerializer.Serialize(fs, s);
+    //    //fs.Flush();
+    //    //fs.Close();
+
+    //   var res= (Student)xmlSerializer.Deserialize(fs);
+    //    Console.WriteLine(res);
+    //    fs.Close();
+
+
+    //}
+
+
+
+
+
+
+
+    //}
+
+    //public class Student
+    //{
+    //    public int Id { get; set; }
+    //    public string Name { get; set; }
+    //    //toString
+    //    public override string ToString()
+    //    {
+    //        return $"Student [Id {Id},Name {Name}]";
+    //    }
+    //}
+
+
+    //=======================================================================================================================================
+    //=======================================================================================================================================
+    
+
+
+
+    //========================================================
+    //12/03/2026
+    //class work
+
+
+
+
+    //========================================================
+    //12/03/2026
+    //homework
+
+
+
+
+
+
+
+
+
+
+}
 

@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\bin\Debug\net8.0\CollectionProject.exe
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\bin\Debug\net8.0\CollectionProject.deps.json
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\bin\Debug\net8.0\CollectionProject.runtimeconfig.json
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\bin\Debug\net8.0\CollectionProject.dll
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\bin\Debug\net8.0\CollectionProject.pdb
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.AssemblyInfo.cs
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.sourcelink.json
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.dll
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\refint\CollectionProject.dll
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.pdb
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\CollectionProject.genruntimeconfig.cache
+C:\2025\CSharp-Programming\CollectionProject\CollectionProject\obj\Debug\net8.0\ref\CollectionProject.dll

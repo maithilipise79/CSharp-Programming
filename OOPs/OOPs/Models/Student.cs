@@ -14,8 +14,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OOPs.Models
 {
-    public class Student
-    {
+    //public class Student
+    //{
         //27-01-2026
         //Class work
 
@@ -35,30 +35,30 @@ namespace OOPs.Models
 
 
 
-        private decimal marks;
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public decimal Marks
-        {
-            get { return marks; }
-            set { marks = value; }
-        }
+        //private decimal marks;
+        //public int Id { get; set; }
+        //public string Name { get; set; }
+        //public decimal Marks
+        //{
+        //    get { return marks; }
+        //    set { marks = value; }
+        //}
 
         //No Argument Constructor (same class name and no return type)
-        public Student()
-        {
-            Id = 101;
-            Name = "Maithili";
-            Marks = 80;
-        }
+        //public Student()
+        //{
+        //    Id = 101;
+        //    Name = "Maithili";
+        //    Marks = 80;
+        //}
 
         //Parameterized Constructor
-        public Student(int id, string name, decimal marks)
-        {
-            Id = id;
-            Name = name;
-            Marks = marks;
-        }
+        //public Student(int id, string name, decimal marks)
+        //{
+        //    Id = id;
+        //    Name = name;
+        //    Marks = marks;
+        //}
 
         //public void DisplayStudent()
         //{
@@ -66,15 +66,15 @@ namespace OOPs.Models
 
         //}
 
-        public bool IsPass => marks > 35;
+    //    public bool IsPass => marks > 35;
 
-        //ToString
-        public override string ToString()
-        {
-            return $"Student[ID :{Id} ,Name:{Name} , Marks:{marks} ]";
-        }
+    //    //ToString
+    //    public override string ToString()
+    //    {
+    //        return $"Student[ID :{Id} ,Name:{Name} , Marks:{marks} ]";
+    //    }
 
-    }
+    //}
 
 
     //==============================================================================================================================================
@@ -445,67 +445,67 @@ namespace OOPs.Models
     // Constructor chaining is a technique in C# where one constructor calls another constructor within the same class or a base class.
     //// This allows for code reuse and can help to avoid duplication of initialization logic.
 
-    public class Employee
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public double Salary { get; set; }
+    //public class Employee
+    //{
+    //    public int Id { get; set; }
+    //    public string Name { get; set; }
+    //    public double Salary { get; set; }
 
-        public Employee() : this(1, "Maithili", 54000)
-        {
-            Console.WriteLine("zero parameterized Constructor");
-        }
-        public Employee(int id, string name, double salary) : this(name, salary)
-        {
-            Id = id;
-            Console.WriteLine("1st parametrized Constructor");
-        }
-        public Employee(string name, double salary) : this(salary)
-        {
-            Name = name;
-            Console.WriteLine("2nd parametrized Constructor");
-        }
-        public Employee(double salary)
-        {
-            Salary = salary;
-            Console.WriteLine("3rd parametrized Constructor");
-        }
+    //    public Employee() : this(1, "Maithili", 54000)
+    //    {
+    //        Console.WriteLine("zero parameterized Constructor");
+    //    }
+    //    public Employee(int id, string name, double salary) : this(name, salary)
+    //    {
+    //        Id = id;
+    //        Console.WriteLine("1st parametrized Constructor");
+    //    }
+    //    public Employee(string name, double salary) : this(salary)
+    //    {
+    //        Name = name;
+    //        Console.WriteLine("2nd parametrized Constructor");
+    //    }
+    //    public Employee(double salary)
+    //    {
+    //        Salary = salary;
+    //        Console.WriteLine("3rd parametrized Constructor");
+    //    }
 
-        public override string ToString()
-        {
-            return $"ID :{Id} , Name: {Name} , Salary:{Salary}";
-        }
-    }
+    //    public override string ToString()
+    //    {
+    //        return $"ID :{Id} , Name: {Name} , Salary:{Salary}";
+    //    }
+    //}
 
     //practice question 
-    public class User
-    {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public User()
-        {
-            Console.WriteLine("Default Constructor");
-        }
-        public User(int id) : this()
-        {
-            ID = id;
-            Console.WriteLine($"Id :{ID}");
-        }
-        public User(int id, string name) : this(104)
-        {
-            ID = id;
-            Name = name;
-            Console.WriteLine($"Id :{ID} ,name is {Name}");
-        }
-        public User(int id, string name, int age) : this(id, "gayatri")
-        {
-            ID = id;
-            Name = name;
-            Age = age;
-            Console.WriteLine($"Id :{ID} ,name is {Name} ,Age is {Age}");
-        }
-    }
+    //public class User
+    //{
+    //    public int ID { get; set; }
+    //    public string Name { get; set; }
+    //    public int Age { get; set; }
+    //    public User()
+    //    {
+    //        Console.WriteLine("Default Constructor");
+    //    }
+    //    public User(int id) : this()
+    //    {
+    //        ID = id;
+    //        Console.WriteLine($"Id :{ID}");
+    //    }
+    //    public User(int id, string name) : this(104)
+    //    {
+    //        ID = id;
+    //        Name = name;
+    //        Console.WriteLine($"Id :{ID} ,name is {Name}");
+    //    }
+    //    public User(int id, string name, int age) : this(id, "gayatri")
+    //    {
+    //        ID = id;
+    //        Name = name;
+    //        Age = age;
+    //        Console.WriteLine($"Id :{ID} ,name is {Name} ,Age is {Age}");
+    //    }
+    //}
     //================================================================================================================================================================
 
     //31/1/2026
@@ -549,20 +549,20 @@ namespace OOPs.Models
     //Create an object and print the IsActive value.
 
 
-    public class AdminUser
-    {
-        public int AdminId { get; set; }
-        public string Name { get; set; }
-        public bool IsActive { get; set; }
+    //public class AdminUser
+    //{
+    //    public int AdminId { get; set; }
+    //    public string Name { get; set; }
+    //    public bool IsActive { get; set; }
 
-        public AdminUser()
-        {
-            AdminId = 101;
-            Name = "Maithili";
-            IsActive = true;
-        }
+    //    public AdminUser()
+    //    {
+    //        AdminId = 101;
+    //        Name = "Maithili";
+    //        IsActive = true;
+    //    }
 
-    }
+    //}
 
 
 
@@ -571,22 +571,22 @@ namespace OOPs.Models
     //Initialize values using parameterized constructor and print login details
 
 
-    public class LoginSession
-    {
-        public int AdminId { get; set; }
-        public int Time { get; set; }
+    //public class LoginSession
+    //{
+    //    public int AdminId { get; set; }
+    //    public int Time { get; set; }
 
-        public LoginSession(int adminId, int time)
-        {
-            AdminId = adminId;
-            this.Time = time;
-        }
+    //    public LoginSession(int adminId, int time)
+    //    {
+    //        AdminId = adminId;
+    //        this.Time = time;
+    //    }
 
-        public override string ToString()
-        {
-            return $"AdminId :{AdminId}  Time :{Time}";
-        }
-    }
+    //    public override string ToString()
+    //    {
+    //        return $"AdminId :{AdminId}  Time :{Time}";
+    //    }
+    //}
 
 
     //PART 2: OVERLOADING & this KEYWORD
@@ -636,34 +636,34 @@ namespace OOPs.Models
     //Modify UserProfile constructors so that:- Second constructor calls first using this- Third constructor calls second using this
     //Avoid duplicate code.
 
-    public class UserProfile
-    {
-        public string Name { get; set; } = "maithilii";
-        public int Age { get; set; }
-        public string City { get; set; } = "Akluj";
+    //public class UserProfile
+    //{
+    //    public string Name { get; set; } = "maithilii";
+    //    public int Age { get; set; }
+    //    public string City { get; set; } = "Akluj";
 
 
-        public UserProfile(string name)
-        {
-            this.Name = name;
-        }
-        public UserProfile(string name, int age) :this("gayatri")
-        {
+    //    public UserProfile(string name)
+    //    {
+    //        this.Name = name;
+    //    }
+    //    public UserProfile(string name, int age) :this("gayatri")
+    //    {
             
-            this.Age = age;
+    //        this.Age = age;
 
-        }
-        public UserProfile(string name, int age, string city) :this(name,age)
-        {
+    //    }
+    //    public UserProfile(string name, int age, string city) :this(name,age)
+    //    {
           
-            City = city;
-        }
+    //        City = city;
+    //    }
 
-        public override string ToString()
-        {
-            return $"Name :{Name}  , Age :{Age} , City :{City}";
-        }
-    }
+    //    public override string ToString()
+    //    {
+    //        return $"Name :{Name}  , Age :{Age} , City :{City}";
+    //    }
+    //}
 
     //PART 3: INHERITANCE & base KEYWORD
 
@@ -695,23 +695,23 @@ namespace OOPs.Models
         }
     }
 
-    public class Car
-    {
-        public string Name { get; set; }
-        public double Price { get; set; }
+    //public class Car
+    //{
+    //    public string Name { get; set; }
+    //    public double Price { get; set; }
 
-        private Car(string name,double price)
-        {
-            Name = name;
-            Price = price;
-        }
+    //    private Car(string name,double price)
+    //    {
+    //        Name = name;
+    //        Price = price;
+    //    }
 
-        public static Car CreateObject( string name,double value)
-        {
-            return new Car( name,value);
-        }
+    //    public static Car CreateObject( string name,double value)
+    //    {
+    //        return new Car( name,value);
+    //    }
 
-    }
+    //}
 
 
 

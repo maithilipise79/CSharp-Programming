@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Delegate\\Program.cs",
               "ToolTip": "C:\\2025\\CSharp-Programming\\Delegate\\Delegate\\Program.cs",
               "RelativeToolTip": "Delegate\\Program.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAmwAMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T15:49:01.357Z",
               "EditorCaption": ""
@@ -44,10 +44,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T17:07:53.21Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

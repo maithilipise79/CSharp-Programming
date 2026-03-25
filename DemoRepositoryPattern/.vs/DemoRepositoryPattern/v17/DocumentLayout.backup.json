@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|c:\\2025\\csharp-programming\\demorepositorypattern\\demorepositorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|solutionrelative:demorepositorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|c:\\2025\\csharp-programming\\demorepositorypattern\\demorepositorypattern\\data\\impl\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|solutionrelative:demorepositorypattern\\data\\impl\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|c:\\2025\\csharp-programming\\demorepositorypattern\\demorepositorypattern\\data\\defination\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|solutionrelative:demorepositorypattern\\data\\defination\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|c:\\2025\\csharp-programming\\demorepositorypattern\\demorepositorypattern\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|solutionrelative:demorepositorypattern\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|c:\\2025\\csharp-programming\\demorepositorypattern\\demorepositorypattern\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2D814E-9392-4EA3-B84C-D1EA06053A4D}|DemoRepositoryPattern\\DemoRepositoryPattern.csproj|solutionrelative:demorepositorypattern\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Data\\Impl\\Repository.cs",
+              "RelativeDocumentMoniker": "DemoRepositoryPattern\\Data\\Impl\\Repository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Data\\Impl\\Repository.cs",
+              "RelativeToolTip": "DemoRepositoryPattern\\Data\\Impl\\Repository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T07:24:48.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Data\\Defination\\IRepository.cs",
+              "RelativeDocumentMoniker": "DemoRepositoryPattern\\Data\\Defination\\IRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Data\\Defination\\IRepository.cs",
+              "RelativeToolTip": "DemoRepositoryPattern\\Data\\Defination\\IRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T07:21:14.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "DemoRepositoryPattern\\Entity\\User.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Entity\\User.cs",
+              "RelativeToolTip": "DemoRepositoryPattern\\Entity\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T07:16:05.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Entity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "DemoRepositoryPattern\\Entity\\BaseEntity.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Entity\\BaseEntity.cs",
+              "RelativeToolTip": "DemoRepositoryPattern\\Entity\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T07:14:01.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Program.cs",
+              "RelativeDocumentMoniker": "DemoRepositoryPattern\\Program.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\DemoRepositoryPattern\\DemoRepositoryPattern\\Program.cs",
+              "RelativeToolTip": "DemoRepositoryPattern\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwEwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T07:12:43.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

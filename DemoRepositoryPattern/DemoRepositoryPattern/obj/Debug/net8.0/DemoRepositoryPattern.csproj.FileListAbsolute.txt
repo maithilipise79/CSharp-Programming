@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\bin\Debug\net8.0\DemoRepositoryPattern.exe
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\bin\Debug\net8.0\DemoRepositoryPattern.deps.json
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\bin\Debug\net8.0\DemoRepositoryPattern.runtimeconfig.json
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\bin\Debug\net8.0\DemoRepositoryPattern.dll
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\bin\Debug\net8.0\DemoRepositoryPattern.pdb
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.AssemblyInfo.cs
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.sourcelink.json
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.dll
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\refint\DemoRepositoryPattern.dll
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.pdb
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\DemoRepositoryPattern.genruntimeconfig.cache
+C:\2025\CSharp-Programming\DemoRepositoryPattern\DemoRepositoryPattern\obj\Debug\net8.0\ref\DemoRepositoryPattern.dll

@@ -1,0 +1,15 @@
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\bin\Debug\net8.0\StringOpeartion.exe
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\bin\Debug\net8.0\StringOpeartion.deps.json
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\bin\Debug\net8.0\StringOpeartion.runtimeconfig.json
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\bin\Debug\net8.0\StringOpeartion.dll
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\bin\Debug\net8.0\StringOpeartion.pdb
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.GeneratedMSBuildEditorConfig.editorconfig
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.AssemblyInfoInputs.cache
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.AssemblyInfo.cs
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.csproj.CoreCompileInputs.cache
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.sourcelink.json
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.dll
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\refint\StringOpeartion.dll
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.pdb
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\StringOpeartion.genruntimeconfig.cache
+C:\2025\CSharp-Programming\StringOpeartion\StringOpeartion\obj\Debug\net8.0\ref\StringOpeartion.dll
