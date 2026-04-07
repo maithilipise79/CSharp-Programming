@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\builder\\entitybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\builder\\entitybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\dal\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\dal\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\dal\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\dal\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\bll\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\bll\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\dal\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\dal\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|c:\\2025\\csharp-programming\\employeemangement\\employeemangement\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E678AA15-94AC-403B-B37D-C58C2AF2FDBE}|EmployeeMangement\\EmployeeMangement.csproj|solutionrelative:employeemangement\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\BLL\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\BLL\\EmployeeService.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\BLL\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeMangement\\BLL\\EmployeeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T01:40:06.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\MODELS\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\MODELS\\Employee.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\MODELS\\Employee.cs",
+              "RelativeToolTip": "EmployeeMangement\\MODELS\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:31:52.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\MODELS\\Department.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\MODELS\\Department.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\MODELS\\Department.cs",
+              "RelativeToolTip": "EmployeeMangement\\MODELS\\Department.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:29:00.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\DAL\\DBHelper.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\DAL\\DBHelper.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\DAL\\DBHelper.cs",
+              "RelativeToolTip": "EmployeeMangement\\DAL\\DBHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T01:00:10.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\DAL\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\DAL\\EmployeeRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\DAL\\EmployeeRepository.cs",
+              "RelativeToolTip": "EmployeeMangement\\DAL\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:44:58.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\BLL\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\BLL\\DepartmentService.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\BLL\\DepartmentService.cs",
+              "RelativeToolTip": "EmployeeMangement\\BLL\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:26:39.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\DAL\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\DAL\\DepartmentRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\DAL\\DepartmentRepository.cs",
+              "RelativeToolTip": "EmployeeMangement\\DAL\\DepartmentRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:15:27.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityBuilder.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\Builder\\EntityBuilder.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\Builder\\EntityBuilder.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\Builder\\EntityBuilder.cs",
+              "RelativeToolTip": "EmployeeMangement\\Builder\\EntityBuilder.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:01:31.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeMangement\\Program.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\EmployeeMangement\\EmployeeMangement\\Program.cs",
+              "RelativeToolTip": "EmployeeMangement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T02:44:24.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

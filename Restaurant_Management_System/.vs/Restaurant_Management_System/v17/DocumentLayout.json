@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|c:\\2025\\csharp-programming\\restaurant_management_system\\restaurant_management_system\\workflow\\opeartionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|solutionrelative:restaurant_management_system\\workflow\\opeartionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|c:\\2025\\csharp-programming\\restaurant_management_system\\restaurant_management_system\\repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|solutionrelative:restaurant_management_system\\repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|c:\\2025\\csharp-programming\\restaurant_management_system\\restaurant_management_system\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|solutionrelative:restaurant_management_system\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|c:\\2025\\csharp-programming\\restaurant_management_system\\restaurant_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|solutionrelative:restaurant_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|c:\\2025\\csharp-programming\\restaurant_management_system\\restaurant_management_system\\repository\\definition\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7378F6-4DFB-4778-A2FC-E5C8DA819C91}|Restaurant_Management_System\\Restaurant_Management_System.csproj|solutionrelative:restaurant_management_system\\repository\\definition\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpeartionHandler.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Workflow\\OpeartionHandler.cs",
+              "RelativeDocumentMoniker": "Restaurant_Management_System\\Workflow\\OpeartionHandler.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Workflow\\OpeartionHandler.cs",
+              "RelativeToolTip": "Restaurant_Management_System\\Workflow\\OpeartionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:36:04.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Repository\\Implementation\\Repository.cs",
+              "RelativeDocumentMoniker": "Restaurant_Management_System\\Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Repository\\Implementation\\Repository.cs",
+              "RelativeToolTip": "Restaurant_Management_System\\Repository\\Implementation\\Repository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAewDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:00:26.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Repository\\Definition\\IRepository.cs",
+              "RelativeDocumentMoniker": "Restaurant_Management_System\\Repository\\Definition\\IRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Repository\\Definition\\IRepository.cs",
+              "RelativeToolTip": "Restaurant_Management_System\\Repository\\Definition\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:49:33.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Restaurant_Management_System\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Restaurant_Management_System\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:43:34.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Program.cs",
+              "RelativeDocumentMoniker": "Restaurant_Management_System\\Program.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Restaurant_Management_System\\Restaurant_Management_System\\Program.cs",
+              "RelativeToolTip": "Restaurant_Management_System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:16:22.076Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
