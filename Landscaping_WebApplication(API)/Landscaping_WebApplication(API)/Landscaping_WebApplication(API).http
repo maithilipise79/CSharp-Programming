@@ -1,0 +1,6 @@
+@Landscaping_WebApplication_API__HostAddress = http://localhost:5038
+
+GET {{Landscaping_WebApplication_API__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

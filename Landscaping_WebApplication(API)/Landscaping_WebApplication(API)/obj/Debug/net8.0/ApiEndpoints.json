@@ -1,0 +1,452 @@
+[
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.CustomerController",
+    "Method": "Create",
+    "RelativePath": "api/Customer/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.CustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/Customer/Customer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.CustomerController",
+    "Method": "Update",
+    "RelativePath": "api/Customer/Customer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customer",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.CustomerController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Customer/Customer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenController",
+    "Method": "Create",
+    "RelativePath": "api/garden/Garden",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "garden",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Garden",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenController",
+    "Method": "GetAll",
+    "RelativePath": "api/garden/Garden",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenController",
+    "Method": "GetById",
+    "RelativePath": "api/garden/Garden/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenController",
+    "Method": "Update",
+    "RelativePath": "api/garden/Garden/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "garden",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Garden",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenController",
+    "Method": "DeleteById",
+    "RelativePath": "api/garden/Garden/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenerController",
+    "Method": "Create",
+    "RelativePath": "api/gardener/Gardener",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gardener",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Gardener",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenerController",
+    "Method": "GetAll",
+    "RelativePath": "api/gardener/Gardener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenerController",
+    "Method": "GetById",
+    "RelativePath": "api/gardener/Gardener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenerController",
+    "Method": "Update",
+    "RelativePath": "api/gardener/Gardener/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gardener",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Gardener",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.GardenerController",
+    "Method": "Delete",
+    "RelativePath": "api/gardener/Gardener/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.IrrigationSystemController",
+    "Method": "Create",
+    "RelativePath": "api/irrigation/IrrigationSystem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "irrigation",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.IrrigationSystem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.IrrigationSystemController",
+    "Method": "GetAll",
+    "RelativePath": "api/irrigation/IrrigationSystem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.IrrigationSystemController",
+    "Method": "GetById",
+    "RelativePath": "api/irrigation/IrrigationSystem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.IrrigationSystemController",
+    "Method": "Update",
+    "RelativePath": "api/irrigation/IrrigationSystem/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "irrigation",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.IrrigationSystem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.IrrigationSystemController",
+    "Method": "Delete",
+    "RelativePath": "api/irrigation/IrrigationSystem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.MaintenanceTaskController",
+    "Method": "Create",
+    "RelativePath": "api/maintenance/MaintenanceTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maintenanceTask",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.MaintenanceTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.MaintenanceTaskController",
+    "Method": "GetAll",
+    "RelativePath": "api/maintenance/MaintenanceTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.MaintenanceTaskController",
+    "Method": "GetById",
+    "RelativePath": "api/maintenance/MaintenanceTask/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.MaintenanceTaskController",
+    "Method": "Update",
+    "RelativePath": "api/maintenance/MaintenanceTask/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "maintenanceTask",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.MaintenanceTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.MaintenanceTaskController",
+    "Method": "Delete",
+    "RelativePath": "api/maintenance/MaintenanceTask/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
