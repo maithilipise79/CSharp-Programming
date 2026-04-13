@@ -93,7 +93,7 @@ namespace Landscaping_WebApplication_API_.Services.Implementation
 
             if(string.IsNullOrWhiteSpace(gardener.Phonre))
             {
-                throw new Exception("GardnContact Numberer is requird ");
+                throw new Exception("Gardner Contact Numberer is requird ");
             }
 
             return _gardenerRepository.Update(gardener);

@@ -448,5 +448,95 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.PlantController",
+    "Method": "Create",
+    "RelativePath": "api/plant/Plant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plant",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Plant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.PlantController",
+    "Method": "GetAll",
+    "RelativePath": "api/plant/Plant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.PlantController",
+    "Method": "GetById",
+    "RelativePath": "api/plant/Plant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.PlantController",
+    "Method": "Update",
+    "RelativePath": "api/plant/Plant/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "plant",
+        "Type": "Landscaping_WebApplication_API_.Model.Landscaping.Plant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Landscaping_WebApplication_API_.Controllers.PlantController",
+    "Method": "Delete",
+    "RelativePath": "api/plant/Plant/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

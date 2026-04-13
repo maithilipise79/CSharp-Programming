@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\maintenancetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\maintenancetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\implementation\\plantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\implementation\\plantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\model\\landscaping\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\model\\landscaping\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\interface\\iirrigationsystemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\interface\\iirrigationsystemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\interface\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\interface\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\implementation\\maintenancetaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\implementation\\maintenancetaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\irrigationsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\irrigationsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\repositories\\implementation\\irrigationsystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +47,8 @@
       "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\repositories\\interface\\iirrigationsystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\implementation\\irrigationsystemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\implementation\\irrigationsystemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\interface\\iirrigationsystemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\interface\\iirrigationsystemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\irrigationsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\irrigationsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\implementation\\maintenancetaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\implementation\\maintenancetaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\implementation\\plantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\implementation\\plantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\model\\landscaping\\irrigationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\model\\landscaping\\irrigationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\interface\\igardenerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\interface\\igardenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\services\\implementation\\gardenerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\services\\implementation\\gardenerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\maintenancetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\maintenancetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\gardencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\gardencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|c:\\2025\\csharp-programming\\landscaping_webapplication(api)\\landscaping_webapplication(api)\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D628D0-3867-4CC8-9C1F-F610256C1A04}|Landscaping_WebApplication(API)\\Landscaping_WebApplication(API).csproj|solutionrelative:landscaping_webapplication(api)\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,72 +78,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IIrrigationSystemRepository.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:37:20.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IrrigationSystemRepository.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:37:04.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IrrigationSystemService.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\IrrigationSystemService.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Implementation\\IrrigationSystemService.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\IrrigationSystemService.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Implementation\\IrrigationSystemService.cs",
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Model\\Landscaping\\Plant.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Model\\Landscaping\\Plant.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Model\\Landscaping\\Plant.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Model\\Landscaping\\Plant.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:32:38.243Z",
+              "WhenOpened": "2026-04-13T05:38:59.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Program.cs",
               "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Program.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Program.cs*",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Program.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAawBkAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Program.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T15:04:18.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IrrigationSystemController.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlantService.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T12:03:33.154Z",
+              "WhenOpened": "2026-04-10T17:32:27.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "PlantController.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\PlantController.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\PlantController.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\PlantController.cs*",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\PlantController.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T12:01:52.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MaintenanceTaskController.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T12:04:11.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IIrrigationSystemService.cs",
               "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IIrrigationSystemService.cs",
               "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Interface\\IIrrigationSystemService.cs",
@@ -153,58 +157,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IGardenerService.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Title": "IrrigationSystemController.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\IrrigationSystemController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:01:18.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IGardenService.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:09:20.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlantService.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Implementation\\PlantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:32:27.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GardenerService.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\GardenerService.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Implementation\\GardenerService.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\GardenerService.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Implementation\\GardenerService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:03:38.686Z",
+              "WhenOpened": "2026-04-10T12:03:33.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Interface\\ICustomerService.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\ICustomerService.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Interface\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:37:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IrrigationSystemRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Repositories\\Implementation\\IrrigationSystemRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:37:04.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MaintenanceTaskService.cs",
               "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Implementation\\MaintenanceTaskService.cs",
               "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Implementation\\MaintenanceTaskService.cs",
@@ -217,20 +208,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MaintenanceTaskController.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\MaintenanceTaskController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IIrrigationSystemRepository.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Repositories\\Interface\\IIrrigationSystemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T12:04:11.347Z",
+              "WhenOpened": "2026-04-10T17:37:20.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IrrigationSystem.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Model\\Landscaping\\IrrigationSystem.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Model\\Landscaping\\IrrigationSystem.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Model\\Landscaping\\IrrigationSystem.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Model\\Landscaping\\IrrigationSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:29:48.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "IGardenerService.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:01:18.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGardenService.cs",
+              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
+              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
+              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
+              "RelativeToolTip": "Landscaping_WebApplication(API)\\Services\\Interface\\IGardenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:09:20.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "GardenController.cs",
               "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\GardenController.cs",
               "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\GardenController.cs",
@@ -238,20 +266,7 @@
               "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\GardenController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T11:03:51.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PlantController.cs",
-              "DocumentMoniker": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\PlantController.cs",
-              "RelativeDocumentMoniker": "Landscaping_WebApplication(API)\\Controllers\\PlantController.cs",
-              "ToolTip": "C:\\2025\\CSharp-Programming\\Landscaping_WebApplication(API)\\Landscaping_WebApplication(API)\\Controllers\\PlantController.cs",
-              "RelativeToolTip": "Landscaping_WebApplication(API)\\Controllers\\PlantController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T12:01:52.48Z"
+              "WhenOpened": "2026-04-10T11:03:51.69Z"
             }
           ]
         }

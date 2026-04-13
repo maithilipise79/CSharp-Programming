@@ -20,10 +20,10 @@ builder.Services.AddScoped<IGardenerRepository, GardenerRepository>();
 builder.Services.AddScoped<IGardenerService, GardenerService>();
 
 builder.Services.AddScoped<IPlantRepository, PlantRepository>();
-builder.Services.AddScoped<IPlantService, PlantService>();
+builder.Services.AddScoped<IPlantService,PlantService>();
 
-//builder.Services.AddScoped<IIrrigationSystemRepository, IrrigationSystemRepository>();
-//builder.Services.AddScoped<IIrrigationSystemService, IrrigationSystemService>();
+builder.Services.AddScoped<IIrrigationSystemRepository, IrrigationSystemRepository>();
+builder.Services.AddScoped<IIrrigationSystemService, IrrigationSystemService>();
 
 builder.Services.AddScoped<IMaintenanceTaskRepository, MaintenanceTaskRepository>();
 builder.Services.AddScoped<IMaintenanceTaskService, MaintenanceTaskService>();

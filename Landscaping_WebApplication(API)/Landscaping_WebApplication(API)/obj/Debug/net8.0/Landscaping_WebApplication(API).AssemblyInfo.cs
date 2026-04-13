@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Landscaping_WebApplication(API)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1eb010e160280d5fc679cce30d16c93f4b03fb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6d2342963c6858f53dce075b479bd7896399867")]
 [assembly: System.Reflection.AssemblyProductAttribute("Landscaping_WebApplication(API)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Landscaping_WebApplication(API)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

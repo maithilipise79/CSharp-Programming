@@ -1,14 +1,15 @@
 ﻿using Landscaping_WebApplication_API_.Model;
 using Landscaping_WebApplication_API_.Model.Landscaping;
 using Landscaping_WebApplication_API_.Repositories.Implementation;
+using Landscaping_WebApplication_API_.Repositories.Interface;
 
 namespace Landscaping_WebApplication_API_.Services.Implementation
 {
     public class IrrigationSystemService : IIrrigationSystemService
     {
-        private readonly IrrigationSystemRepository _repository;
+        private readonly IIrrigationSystemRepository _repository;
 
-        public IrrigationSystemService(IrrigationSystemRepository repository)
+        public IrrigationSystemService(IIrrigationSystemRepository repository)
         {
             _repository = repository;
         }
